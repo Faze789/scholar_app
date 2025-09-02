@@ -1,0 +1,1 @@
+web: gunicorn all_uni_predict:app
