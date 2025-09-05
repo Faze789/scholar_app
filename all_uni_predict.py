@@ -153,7 +153,7 @@ UNIVERSITIES = {
         "program_col": "Program",
         "year_col": "Year",
         "cutoff_col": "Merit Percentage",
-        "fee_url": "https://www.ilmkidunya.com/colleges/iqra-university-karachi-fee-structure.aspx"
+        "fee_url": "https://www.ilmkidunya.com/colleges/iqra-university-islamabad-fee-structure.aspx"
     },
     "comsats": {
         "name": "COMSATS University",
