@@ -9,19 +9,28 @@ from bs4 import BeautifulSoup
 import datetime
 import os
 import json
-import logging
 
 app = Flask(__name__)
-CORS(app)
+CORS(app)  
 
-# Set up logging
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
+json_path = r"C:\work\unis_recommendation\all_uni.json"
 
-# Directory to store cached fee data
-CACHE_DIR = "fee_cache"
-if not os.path.exists(CACHE_DIR):
-    os.makedirs(CACHE_DIR)
+def load_cached_data():
+    try:
+        if os.path.exists(json_path):
+            with open(json_path, 'r', encoding='utf-8') as f:
+                return json.load(f)
+    except Exception as e:
+        print(f"Error loading cache: {e}")
+    return {}
+
+def save_cached_data(data):
+    try:
+        os.makedirs(os.path.dirname(json_path), exist_ok=True)
+        with open(json_path, 'w', encoding='utf-8') as f:
+            json.dump(data, f, indent=4)
+    except Exception as e:
+        print(f"Error saving cache: {e}")
 
 def calculate_aggregate(matric_marks, fsc_marks, test_marks, totals, weights):
     """Calculate weighted aggregate score"""
@@ -107,7 +116,7 @@ def prepare_training_data(df, program, year_col, cutoff_col, program_col="Progra
     if prog_df.empty:
         return None, None
 
-    if year_col and year_col in df.columns:
+    if year_col and year_col in prog_df.columns:
         prog_df.loc[:, 'Year_Num'] = prog_df[year_col].apply(extract_year)
         prog_df = prog_df.dropna(subset=['Year_Num', cutoff_col])
         if prog_df.shape[0] >= 2:
@@ -143,6 +152,7 @@ def get_admission_chance(user_agg, predicted_cutoff):
     else:
         return "Low (<30%)"
 
+
 def safe_get(url):
     try:
         response = requests.get(url, timeout=30)
@@ -151,27 +161,6 @@ def safe_get(url):
     except Exception as e:
         return None, str(e)
 
-def save_to_cache(uni_id, data):
-    """Save fee data to JSON cache"""
-    try:
-        cache_file = os.path.join(CACHE_DIR, f"{uni_id}_fees.json")
-        with open(cache_file, 'w') as f:
-            json.dump(data, f, indent=2)
-        logger.info(f"Saved fee data to cache for {uni_id}")
-    except Exception as e:
-        logger.error(f"Failed to save cache for {uni_id}: {e}")
-
-def load_from_cache(uni_id):
-    """Load fee data from JSON cache"""
-    try:
-        cache_file = os.path.join(CACHE_DIR, f"{uni_id}_fees.json")
-        if os.path.exists(cache_file):
-            with open(cache_file, 'r') as f:
-                return json.load(f)
-        return None
-    except Exception as e:
-        logger.error(f"Failed to load cache for {uni_id}: {e}")
-        return None
 
 UNIVERSITIES = {
     "iqra": {
@@ -282,14 +271,15 @@ UNIVERSITIES = {
         "program_col": None,
         "year_col": None,
         "cutoff_col": None,
-        "fee_url": "https://www.ilmkidunya.com/colleges/lahore-university-of-management-sciences-lums-fee-structure.aspx"
+        "fee_url": "https://www.ilmkidunya.com/colleges/lahore-university-of-management-sciences-lahore-lums-fee-structure.aspx"
     }
 }
+
 
 @app.route("/predict", methods=["POST"])
 def predict_admission():
     data = request.get_json()
-    logger.info("Received data: %s", data)
+    print("Received data:", data)
     
     required_fields = ["matric_marks", "fsc_marks", "program"]
     if not all(field in data for field in required_fields):
@@ -448,7 +438,7 @@ def predict_admission():
                 else:
                     df = None
         except Exception as e:
-            logger.error(f"Error loading %s: %s", uni_config.get('data_file', 'data'), e)
+            print(f"Error loading {uni_config.get('data_file', 'data')}: {e}")
             predicted_cutoff = None
             latest_cutoff = None
             latest_year = None
@@ -508,129 +498,85 @@ def predict_admission():
         
         results["universities"].append(uni_result)
 
-    logger.info("Final results: %s", results)
+    print("Final results:", results)
     return jsonify(results)
 
+
 def scrape_iiui_fees():
-    resp, error = safe_get(UNIVERSITIES["iiui"]["fee_url"])
-    if error:
-        cached_data = load_from_cache("iiui")
-        if cached_data:
-            return cached_data, None
-        return None, f"Failed to fetch IIUI page: {error}"
-    
-    soup = BeautifulSoup(resp.content, 'html.parser')
-    tables = soup.find_all('table', class_=lambda x: x and 'table' in x)
-    fee_data = []
-    
-    for table in tables:
-        header_row = table.find('tr')
-        if not header_row:
-            continue
-        headers = [th.get_text(strip=True) for th in header_row.find_all('th')]
-        if len(headers) >= 2 and any(word in headers[0].lower() for word in ['program', 'name']):
-            for row in table.find_all('tr')[1:]:
-                cols = row.find_all('td')
-                if len(cols) >= 3:
-                    program = cols[0].get_text(strip=True)
-                    duration = cols[1].get_text(strip=True)
-                    fee_text = cols[2].get_text(strip=True)
-                    fee = None
-                    if 'fee' in fee_text.lower():
-                        numbers = [int(s) for s in fee_text.split() if s.isdigit()]
-                        if numbers:
-                            fee = numbers[-1]
-                    fee_data.append({
-                        'program': program,
-                        'duration': duration,
-                        'total_fee': f"PKR {fee}" if fee else "Not available",
-                        'currency': 'PKR' if fee else None
-                    })
-    
-    if not fee_data:
-        cached_data = load_from_cache("iiui")
-        if cached_data:
-            return cached_data, None
-        return None, "No fee data found in any tables on the IIUI page"
-    
-    save_to_cache("iiui", fee_data)
-    return fee_data, None
+    cache_key = "iiui_fees"
+    url = UNIVERSITIES["iiui"]["fee_url"]
+    cached = load_cached_data()
+    resp, error = safe_get(url)
+    if not error:
+        soup = BeautifulSoup(resp.content, 'html.parser')
+        tables = soup.find_all('table', class_=lambda x: x and 'table' in x)
+        fee_data = []
+        for table in tables:
+            header_row = table.find('tr')
+            if not header_row:
+                continue
+            headers = [th.get_text(strip=True) for th in header_row.find_all('th')]
+            if len(headers) >= 2 and any(word in headers[0].lower() for word in ['program', 'name']):
+                for row in table.find_all('tr')[1:]:
+                    cols = row.find_all('td')
+                    if len(cols) >= 3:
+                        program = cols[0].get_text(strip=True)
+                        duration = cols[1].get_text(strip=True)
+                        fee_text = cols[2].get_text(strip=True)
+                        fee = None
+                        if 'fee' in fee_text.lower():
+                            numbers = [int(s) for s in fee_text.split() if s.isdigit()]
+                            if numbers:
+                                fee = numbers[-1]
+                        fee_data.append({
+                            'program': program,
+                            'duration': duration,
+                            'total_fee': f"PKR {fee}" if fee else "Not available",
+                            'currency': 'PKR' if fee else None
+                        })
+        if fee_data:
+            update_time = datetime.datetime.now().isoformat()
+            cached[cache_key] = {
+                "fee_structure": fee_data,
+                "last_updated": update_time
+            }
+            save_cached_data(cached)
+            return fee_data, None, update_time, False
+        else:
+            error = "No fee data found in any tables on the IIUI page"
+    if cache_key in cached:
+        cached_entry = cached[cache_key]
+        return cached_entry["fee_structure"], None, cached_entry["last_updated"], True
+    return None, error or "No fee data found in any tables on the IIUI page", None, False
 
 @app.route('/feesiiui', methods=['GET'])
 def fees_iiui():
-    data, error = scrape_iiui_fees()
+    data, error, last_updated, from_cache = scrape_iiui_fees()
     if error:
         return jsonify({
             "status": "error",
-            "university": UNIVERSITIES["iiui"]["name"],
             "source": "International Islamic University Islamabad (IIUI)",
             "message": error
         }), 500
-    return jsonify({
+    response = {
         "status": "success",
-        "university": UNIVERSITIES["iiui"]["name"],
+        "uni_id": "iiui",
         "source": "International Islamic University Islamabad (IIUI)",
         "fee_structure": data,
-        "last_updated": datetime.datetime.now().isoformat()
-    })
+        "last_updated": last_updated
+    }
+    if from_cache:
+        response["note"] = "Data loaded from cache due to fetch failure"
+    return jsonify(response)
 
 def scrape_uet_fees():
-    resp, error = safe_get(UNIVERSITIES["uet"]["fee_url"])
-    if error:
-        cached_data = load_from_cache("uet")
-        if cached_data:
-            return cached_data, None
-        return None, error
-    
-    soup = BeautifulSoup(resp.text, 'html.parser')
-    table = soup.find("table")
-    if not table:
-        cached_data = load_from_cache("uet")
-        if cached_data:
-            return cached_data, None
-        return None, "Fee structure table not found"
-    
-    headers = [th.get_text(strip=True) for th in table.find_all("th")]
-    rows = []
-    for tr in table.find_all("tr")[1:]:
-        cols = [td.get_text(strip=True) for td in tr.find_all("td")]
-        if cols:
-            rows.append(dict(zip(headers, cols)))
-    
-    save_to_cache("uet", rows)
-    return rows, None
-
-@app.route('/feesuet', methods=['GET'])
-def fees_uet():
-    data, error = scrape_uet_fees()
-    if error:
-        return jsonify({
-            "status": "error",
-            "university": UNIVERSITIES["uet"]["name"],
-            "source": "University of Engineering and Technology (UET) Lahore",
-            "message": error
-        }), 500
-    return jsonify({
-        "status": "success",
-        "university": UNIVERSITIES["uet"]["name"],
-        "source": "University of Engineering and Technology (UET) Lahore",
-        "fee_structure": data,
-        "last_updated": datetime.datetime.now().isoformat()
-    })
-
-def scrape_lums_fees():
-    resp, error = safe_get(UNIVERSITIES["lums"]["fee_url"])
-    if error:
-        cached_data = load_from_cache("lums")
-        if cached_data:
-            return cached_data, None
-        return None, error
-    
-    soup = BeautifulSoup(resp.text, "html.parser")
-    data = {}
-    bscs_table = soup.find("h2", text=lambda t: t and "BSCS" in t)
-    if bscs_table:
-        table = bscs_table.find_next("table")
+    cache_key = "uet_fees"
+    url = UNIVERSITIES["uet"]["fee_url"]
+    cached = load_cached_data()
+    resp, error = safe_get(url)
+    if not error:
+        soup = BeautifulSoup(resp.text, 'html.parser')
+        table = soup.find("table")
         if table:
             headers = [th.get_text(strip=True) for th in table.find_all("th")]
             rows = []
@@ -638,95 +584,163 @@ def scrape_lums_fees():
                 cols = [td.get_text(strip=True) for td in tr.find_all("td")]
                 if cols:
                     rows.append(dict(zip(headers, cols)))
-            data["freshman_bscs"] = rows
+            if rows:
+                update_time = datetime.datetime.now().isoformat()
+                cached[cache_key] = {
+                    "fee_structure": rows,
+                    "last_updated": update_time
+                }
+                save_cached_data(cached)
+                return rows, None, update_time, False
+            else:
+                error = "No fee data found in the table"
+        else:
+            error = "Fee structure table not found"
+    if cache_key in cached:
+        cached_entry = cached[cache_key]
+        return cached_entry["fee_structure"], None, cached_entry["last_updated"], True
+    return None, error or "Fee structure table not found", None, False
 
-    for section in ["Ph. D Programs", "Masters Programs", "Bachelors Programs", "M. Phil Programs", "Others Programs"]:
-        heading = soup.find(lambda tag: tag.name.startswith("h") and section in tag.get_text())
-        if heading:
-            table = heading.find_next("table")
+@app.route('/feesuet', methods=['GET'])
+def fees_uet():
+    data, error, last_updated, from_cache = scrape_uet_fees()
+    if error:
+        return jsonify({
+            "status": "error",
+            "source": "University of Engineering and Technology (UET) Lahore",
+            "message": error
+        }), 500
+    response = {
+        "status": "success",
+        "uni_id": "uet",
+        "source": "University of Engineering and Technology (UET) Lahore",
+        "fee_structure": data,
+        "last_updated": last_updated
+    }
+    if from_cache:
+        response["note"] = "Data loaded from cache due to fetch failure"
+    return jsonify(response)
+
+def scrape_lums_fees():
+    cache_key = "lums_fees"
+    url = UNIVERSITIES["lums"]["fee_url"]
+    cached = load_cached_data()
+    resp, error = safe_get(url)
+    if not error:
+        soup = BeautifulSoup(resp.text, "html.parser")
+        data = {}
+        bscs_table = soup.find("h2", text=lambda t: t and "BSCS" in t)
+        if bscs_table:
+            table = bscs_table.find_next("table")
             if table:
+                headers = [th.get_text(strip=True) for th in table.find_all("th")]
                 rows = []
                 for tr in table.find_all("tr")[1:]:
                     cols = [td.get_text(strip=True) for td in tr.find_all("td")]
-                    if len(cols) >= 3:
-                        rows.append({
-                            "program": cols[0],
-                            "duration_years": cols[1],
-                            "fee": cols[2]
-                        })
-                data[section.lower().replace(" ", "_")] = rows
+                    if cols:
+                        rows.append(dict(zip(headers, cols)))
+                data["freshman_bscs"] = rows
 
-    if not data:
-        cached_data = load_from_cache("lums")
-        if cached_data:
-            return cached_data, None
-        return None, "No fee data found for LUMS"
-    
-    save_to_cache("lums", data)
-    return data, None
+        for section in ["Ph. D Programs", "Masters Programs", "Bachelors Programs", "M. Phil Programs", "Others Programs"]:
+            heading = soup.find(lambda tag: tag.name.startswith("h") and section in tag.get_text())
+            if heading:
+                table = heading.find_next("table")
+                if table:
+                    rows = []
+                    for tr in table.find_all("tr")[1:]:
+                        cols = [td.get_text(strip=True) for td in tr.find_all("td")]
+                        if len(cols) >= 3:
+                            rows.append({
+                                "program": cols[0],
+                                "duration_years": cols[1],
+                                "fee": cols[2]
+                            })
+                    data[section.lower().replace(" ", "_")] = rows
+
+        if data:
+            update_time = datetime.datetime.now().isoformat()
+            cached[cache_key] = {
+                "fee_structure": data,
+                "last_updated": update_time
+            }
+            save_cached_data(cached)
+            return data, None, update_time, False
+        else:
+            error = "No fee data found for LUMS"
+    if cache_key in cached:
+        cached_entry = cached[cache_key]
+        return cached_entry["fee_structure"], None, cached_entry["last_updated"], True
+    return None, error or "No fee data found for LUMS", None, False
 
 @app.route("/feeslums", methods=["GET"])
 def fees_lums():
-    data, error = scrape_lums_fees()
+    data, error, last_updated, from_cache = scrape_lums_fees()
     if error:
         return jsonify({
             "status": "error",
-            "university": UNIVERSITIES["lums"]["name"],
             "source": "Lahore University of Management Sciences (LUMS)",
             "message": error
         }), 500
-    return jsonify({
+    response = {
         "status": "success",
-        "university": UNIVERSITIES["lums"]["name"],
+        "uni_id": "lums",
         "source": "Lahore University of Management Sciences (LUMS)",
         "fee_structure": data,
-        "last_updated": datetime.datetime.now().isoformat()
-    })
+        "last_updated": last_updated
+    }
+    if from_cache:
+        response["note"] = "Data loaded from cache due to fetch failure"
+    return jsonify(response)
 
 def scrape_ned_fees():
-    resp, error = safe_get(UNIVERSITIES["ned"]["fee_url"])
-    if error:
-        cached_data = load_from_cache("ned")
-        if cached_data:
-            return cached_data, None
-        return None, error
-    
-    soup = BeautifulSoup(resp.text, 'html.parser')
-    tables = soup.find_all('table')
-    fee_data = []
-    for table in tables:
-        headers = [th.text.strip() for th in table.find_all('th')]
-        for tr in table.find_all('tr')[1:]:
-            cols = [td.text.strip() for td in tr.find_all('td')]
-            if cols:
-                fee_data.append(dict(zip(headers, cols)))
-    
-    if not fee_data:
-        cached_data = load_from_cache("ned")
-        if cached_data:
-            return cached_data, None
-        return None, "No fee data found for NED University"
-    
-    save_to_cache("ned", fee_data)
-    return fee_data, None
+    cache_key = "ned_fees"
+    url = UNIVERSITIES["ned"]["fee_url"]
+    cached = load_cached_data()
+    resp, error = safe_get(url)
+    if not error:
+        soup = BeautifulSoup(resp.text, 'html.parser')
+        tables = soup.find_all('table')
+        fee_data = []
+        for table in tables:
+            headers = [th.text.strip() for th in table.find_all('th')]
+            for tr in table.find_all('tr')[1:]:
+                cols = [td.text.strip() for td in tr.find_all('td')]
+                if cols:
+                    fee_data.append(dict(zip(headers, cols)))
+        if fee_data:
+            update_time = datetime.datetime.now().isoformat()
+            cached[cache_key] = {
+                "fee_structure": fee_data,
+                "last_updated": update_time
+            }
+            save_cached_data(cached)
+            return fee_data, None, update_time, False
+        else:
+            error = "No fee data found for NED University"
+    if cache_key in cached:
+        cached_entry = cached[cache_key]
+        return cached_entry["fee_structure"], None, cached_entry["last_updated"], True
+    return None, error or "No fee data found for NED University", None, False
 
 @app.route('/nedfees', methods=['GET'])
 def ned_fees():
-    data, error = scrape_ned_fees()
+    data, error, last_updated, from_cache = scrape_ned_fees()
     if error:
         return jsonify({
             "status": "error",
-            "university": UNIVERSITIES["ned"]["name"],
             "source": "NED University",
             "message": error
         }), 500
-    return jsonify({
+    response = {
         "status": "success",
-        "university": UNIVERSITIES["ned"]["name"],
+        "uni_id": "ned",
         "source": "NED University",
         "fee_structure": data,
-        "last_updated": datetime.datetime.now().isoformat()
-    })
+        "last_updated": last_updated
+    }
+    if from_cache:
+        response["note"] = "Data loaded from cache due to fetch failure"
+    return jsonify(response)
 
 def extract_fee_structure_uol(soup, section_title):
     section = soup.find('h2', string=lambda text: text and section_title.lower() in text.lower())
@@ -743,266 +757,307 @@ def extract_fee_structure_uol(soup, section_title):
     return []
 
 def scrape_fee_structure_uol():
-    resp, error = safe_get(UNIVERSITIES["uol"]["fee_url"])
-    if error:
-        cached_data = load_from_cache("uol")
-        if cached_data:
-            return cached_data, None
-        return None, error
-    
-    soup = BeautifulSoup(resp.text, 'html.parser')
-    data = {
-        'BSCS': extract_fee_structure_uol(soup, "BSCS Fee Structure"),
-        'BBA': extract_fee_structure_uol(soup, "BBA Fee Structure"),
-        'MPhil Programs': extract_fee_structure_uol(soup, "M. Phil Programs"),
-        'Masters Programs': extract_fee_structure_uol(soup, "Masters Programs")
-    }
-    
-    if not any(data.values()):
-        cached_data = load_from_cache("uol")
-        if cached_data:
-            return cached_data, None
-        return None, "No fee data found for UOL"
-    
-    save_to_cache("uol", data)
-    return data, None
+    cache_key = "uol_fees"
+    url = UNIVERSITIES["uol"]["fee_url"]
+    cached = load_cached_data()
+    resp, error = safe_get(url)
+    if not error:
+        soup = BeautifulSoup(resp.text, 'html.parser')
+        data = {
+            'BSCS': extract_fee_structure_uol(soup, "BSCS Fee Structure"),
+            'BBA': extract_fee_structure_uol(soup, "BBA Fee Structure"),
+            'MPhil Programs': extract_fee_structure_uol(soup, "M. Phil Programs"),
+            'Masters Programs': extract_fee_structure_uol(soup, "Masters Programs")
+        }
+        if any(data.values()):
+            update_time = datetime.datetime.now().isoformat()
+            cached[cache_key] = {
+                "fee_structure": data,
+                "last_updated": update_time
+            }
+            save_cached_data(cached)
+            return data, None, update_time, False
+        else:
+            error = "No fee data found for UOL"
+    if cache_key in cached:
+        cached_entry = cached[cache_key]
+        return cached_entry["fee_structure"], None, cached_entry["last_updated"], True
+    return None, error or "No fee data found for UOL", None, False
 
 @app.route('/feesuol', methods=['GET'])
 def fees_uol():
-    data, error = scrape_fee_structure_uol()
+    data, error, last_updated, from_cache = scrape_fee_structure_uol()
     if error:
         return jsonify({
             "status": "error",
-            "university": UNIVERSITIES["uol"]["name"],
             "source": "University of Lahore (UOL)",
             "message": error
         }), 500
-    return jsonify({
+    response = {
         "status": "success",
-        "university": UNIVERSITIES["uol"]["name"],
+        "uni_id": "uol",
         "source": "University of Lahore (UOL)",
         "fee_structure": data,
-        "last_updated": datetime.datetime.now().isoformat()
-    })
+        "last_updated": last_updated
+    }
+    if from_cache:
+        response["note"] = "Data loaded from cache due to fetch failure"
+    return jsonify(response)
 
 def scrape_nust_fees():
-    resp, error = safe_get(UNIVERSITIES["nust"]["fee_url"])
-    if error:
-        cached_data = load_from_cache("nust")
-        if cached_data:
-            return cached_data, None
-        return None, error
-    
-    soup = BeautifulSoup(resp.text, 'html.parser')
-    tables = soup.find_all('table')
-    fee_data = []
-    for table in tables:
-        headers = [th.get_text(strip=True) for th in table.find_all('th')]
-        for row in table.find_all('tr')[1:]:
-            cols = row.find_all('td')
-            if len(cols) == len(headers):
-                fee_data.append({headers[i]: cols[i].get_text(strip=True) for i in range(len(headers))})
-    
-    if not fee_data:
-        cached_data = load_from_cache("nust")
-        if cached_data:
-            return cached_data, None
-        return None, "No fee data found for NUST"
-    
-    save_to_cache("nust", fee_data)
-    return fee_data, None
+    cache_key = "nust_fees"
+    url = UNIVERSITIES["nust"]["fee_url"]
+    cached = load_cached_data()
+    resp, error = safe_get(url)
+    if not error:
+        soup = BeautifulSoup(resp.text, 'html.parser')
+        tables = soup.find_all('table')
+        fee_data = []
+        for table in tables:
+            headers = [th.get_text(strip=True) for th in table.find_all('th')]
+            for row in table.find_all('tr')[1:]:
+                cols = row.find_all('td')
+                if len(cols) == len(headers):
+                    fee_data.append({headers[i]: cols[i].get_text(strip=True) for i in range(len(headers))})
+        if fee_data:
+            update_time = datetime.datetime.now().isoformat()
+            cached[cache_key] = {
+                "fee_structure": fee_data,
+                "last_updated": update_time
+            }
+            save_cached_data(cached)
+            return fee_data, None, update_time, False
+        else:
+            error = "No fee data found for NUST"
+    if cache_key in cached:
+        cached_entry = cached[cache_key]
+        return cached_entry["fee_structure"], None, cached_entry["last_updated"], True
+    return None, error or "No fee data found for NUST", None, False
 
 @app.route('/feesnust', methods=['GET'])
 def fees_nust():
-    data, error = scrape_nust_fees()
+    data, error, last_updated, from_cache = scrape_nust_fees()
     if error:
         return jsonify({
             "status": "error",
-            "university": UNIVERSITIES["nust"]["name"],
             "source": "National University of Sciences and Technology (NUST)",
             "message": error
         }), 500
-    return jsonify({
+    response = {
         "status": "success",
-        "university": UNIVERSITIES["nust"]["name"],
+        "uni_id": "nust",
         "source": "National University of Sciences and Technology (NUST)",
         "fee_structure": data,
-        "last_updated": datetime.datetime.now().isoformat()
-    })
+        "last_updated": last_updated
+    }
+    if from_cache:
+        response["note"] = "Data loaded from cache due to fetch failure"
+    return jsonify(response)
 
 def scrape_comsats_fees():
-    resp, error = safe_get(UNIVERSITIES["comsats"]["fee_url"])
-    if error:
-        cached_data = load_from_cache("comsats")
-        if cached_data:
-            return cached_data, None
-        return None, error
-    
-    soup = BeautifulSoup(resp.text, 'html.parser')
-    tables = soup.find_all('table')
-    fee_data = []
-    for table in tables:
-        headers = [th.get_text(strip=True) for th in table.find_all('th')]
-        for row in table.find_all('tr')[1:]:
-            cols = row.find_all('td')
-            if len(cols) == len(headers):
-                fee_data.append({headers[i]: cols[i].get_text(strip=True) for i in range(len(headers))})
-    
-    if not fee_data:
-        cached_data = load_from_cache("comsats")
-        if cached_data:
-            return cached_data, None
-        return None, "No fee data found for COMSATS"
-    
-    save_to_cache("comsats", fee_data)
-    return fee_data, None
+    cache_key = "comsats_fees"
+    url = UNIVERSITIES["comsats"]["fee_url"]
+    cached = load_cached_data()
+    resp, error = safe_get(url)
+    if not error:
+        soup = BeautifulSoup(resp.text, 'html.parser')
+        tables = soup.find_all('table')
+        fee_data = []
+        for table in tables:
+            headers = [th.get_text(strip=True) for th in table.find_all('th')]
+            for row in table.find_all('tr')[1:]:
+                cols = row.find_all('td')
+                if len(cols) == len(headers):
+                    fee_data.append({headers[i]: cols[i].get_text(strip=True) for i in range(len(headers))})
+        if fee_data:
+            update_time = datetime.datetime.now().isoformat()
+            cached[cache_key] = {
+                "fee_structure": fee_data,
+                "last_updated": update_time
+            }
+            save_cached_data(cached)
+            return fee_data, None, update_time, False
+        else:
+            error = "No fee data found for COMSATS"
+    if cache_key in cached:
+        cached_entry = cached[cache_key]
+        return cached_entry["fee_structure"], None, cached_entry["last_updated"], True
+    return None, error or "No fee data found for COMSATS", None, False
 
 @app.route('/feescomsats', methods=['GET'])
 def fees_comsats():
-    data, error = scrape_comsats_fees()
+    data, error, last_updated, from_cache = scrape_comsats_fees()
     if error:
         return jsonify({
             "status": "error",
-            "university": UNIVERSITIES["comsats"]["name"],
             "source": "COMSATS University Islamabad (Lahore Campus)",
             "message": error
         }), 500
-    return jsonify({
+    response = {
         "status": "success",
-        "university": UNIVERSITIES["comsats"]["name"],
+        "uni_id": "comsats",
         "source": "COMSATS University Islamabad (Lahore Campus)",
         "fee_structure": data,
-        "last_updated": datetime.datetime.now().isoformat()
-    })
+        "last_updated": last_updated
+    }
+    if from_cache:
+        response["note"] = "Data loaded from cache due to fetch failure"
+    return jsonify(response)
 
 def scrape_bahria_fees():
-    resp, error = safe_get(UNIVERSITIES["bahria"]["fee_url"])
-    if error:
-        cached_data = load_from_cache("bahria")
-        if cached_data:
-            return cached_data, None
-        return None, error
-    
-    soup = BeautifulSoup(resp.text, 'html.parser')
-    tables = soup.find_all('table')
-    fee_data = []
-    for table in tables:
-        headers = [th.get_text(strip=True) for th in table.find_all('th')]
-        for row in table.find_all('tr')[1:]:
-            cols = row.find_all('td')
-            if len(cols) == len(headers):
-                fee_data.append({headers[i]: cols[i].get_text(strip=True) for i in range(len(headers))})
-    
-    if not fee_data:
-        cached_data = load_from_cache("bahria")
-        if cached_data:
-            return cached_data, None
-        return None, "No fee data found for Bahria University"
-    
-    save_to_cache("bahria", fee_data)
-    return fee_data, None
+    cache_key = "bahria_fees"
+    url = UNIVERSITIES["bahria"]["fee_url"]
+    cached = load_cached_data()
+    resp, error = safe_get(url)
+    if not error:
+        soup = BeautifulSoup(resp.text, 'html.parser')
+        tables = soup.find_all('table')
+        fee_data = []
+        for table in tables:
+            headers = [th.get_text(strip=True) for th in table.find_all('th')]
+            for row in table.find_all('tr')[1:]:
+                cols = row.find_all('td')
+                if len(cols) == len(headers):
+                    fee_data.append({headers[i]: cols[i].get_text(strip=True) for i in range(len(headers))})
+        if fee_data:
+            update_time = datetime.datetime.now().isoformat()
+            cached[cache_key] = {
+                "fee_structure": fee_data,
+                "last_updated": update_time
+            }
+            save_cached_data(cached)
+            return fee_data, None, update_time, False
+        else:
+            error = "No fee data found for Bahria University"
+    if cache_key in cached:
+        cached_entry = cached[cache_key]
+        return cached_entry["fee_structure"], None, cached_entry["last_updated"], True
+    return None, error or "No fee data found for Bahria University", None, False
 
 @app.route('/feesbahria', methods=['GET'])
 def fees_bahria():
-    data, error = scrape_bahria_fees()
+    data, error, last_updated, from_cache = scrape_bahria_fees()
     if error:
         return jsonify({
             "status": "error",
-            "university": UNIVERSITIES["bahria"]["name"],
             "source": "Bahria University",
             "message": error
         }), 500
-    return jsonify({
+    response = {
         "status": "success",
-        "university": UNIVERSITIES["bahria"]["name"],
+        "uni_id": "bahria",
         "source": "Bahria University",
         "fee_structure": data,
-        "last_updated": datetime.datetime.now().isoformat()
-    })
+        "last_updated": last_updated
+    }
+    if from_cache:
+        response["note"] = "Data loaded from cache due to fetch failure"
+    return jsonify(response)
 
 def scrape_iqra_fees():
-    resp, error = safe_get(UNIVERSITIES["iqra"]["fee_url"])
-    if error:
-        cached_data = load_from_cache("iqra")
-        if cached_data:
-            return cached_data, None
-        return None, error
-    
-    soup = BeautifulSoup(resp.text, 'html.parser')
-    tables = soup.find_all('table')
-    fee_data = []
-    for table in tables:
-        headers = [th.get_text(strip=True) for th in table.find_all('th')]
-        for row in table.find_all('tr')[1:]:
-            cols = row.find_all('td')
-            if len(cols) == len(headers):
-                fee_data.append({headers[i]: cols[i].get_text(strip=True) for i in range(len(headers))})
-    
-    if not fee_data:
-        cached_data = load_from_cache("iqra")
-        if cached_data:
-            return cached_data, None
-        return None, "No fee data found for Iqra University"
-    
-    save_to_cache("iqra", fee_data)
-    return fee_data, None
+    cache_key = "iqra_fees"
+    url = UNIVERSITIES["iqra"]["fee_url"]
+    cached = load_cached_data()
+    resp, error = safe_get(url)
+    if not error:
+        soup = BeautifulSoup(resp.text, 'html.parser')
+        tables = soup.find_all('table')
+        fee_data = []
+        for table in tables:
+            headers = [th.get_text(strip=True) for th in table.find_all('th')]
+            for row in table.find_all('tr')[1:]:
+                cols = row.find_all('td')
+                if len(cols) == len(headers):
+                    fee_data.append({headers[i]: cols[i].get_text(strip=True) for i in range(len(headers))})
+        if fee_data:
+            update_time = datetime.datetime.now().isoformat()
+            cached[cache_key] = {
+                "fee_structure": fee_data,
+                "last_updated": update_time
+            }
+            save_cached_data(cached)
+            return fee_data, None, update_time, False
+        else:
+            error = "No fee data found for Iqra University"
+    if cache_key in cached:
+        cached_entry = cached[cache_key]
+        return cached_entry["fee_structure"], None, cached_entry["last_updated"], True
+    return None, error or "No fee data found for Iqra University", None, False
 
 @app.route('/feesiqra', methods=['GET'])
 def fees_iqra():
-    data, error = scrape_iqra_fees()
+    data, error, last_updated, from_cache = scrape_iqra_fees()
     if error:
         return jsonify({
             "status": "error",
-            "university": UNIVERSITIES["iqra"]["name"],
             "source": "Iqra University",
             "message": error
         }), 500
-    return jsonify({
+    response = {
         "status": "success",
-        "university": UNIVERSITIES["iqra"]["name"],
+        "uni_id": "iqra",
         "source": "Iqra University",
         "fee_structure": data,
-        "last_updated": datetime.datetime.now().isoformat()
-    })
+        "last_updated": last_updated
+    }
+    if from_cache:
+        response["note"] = "Data loaded from cache due to fetch failure"
+    return jsonify(response)
 
 def scrape_nust_scholarships():
-    resp, err = safe_get(UNIVERSITIES["nust"]["scholarship_url"])
-    if err:
-        return None, err
-    soup = BeautifulSoup(resp.text, 'html.parser')
-    section = soup.find('h2', string=lambda t: t and 'nust scholarships' in t.lower())
-    if not section:
-        return None, "NUST scholarships section not found"
-    text = []
-    node = section.find_next_sibling()
-    while node and node.name not in ['h2', 'h1']:
-        if node.name == 'p':
-            text.append(node.get_text(strip=True))
-        if node.name == 'ul':
-            for li in node.find_all('li'):
-                text.append(f"- {li.get_text(strip=True)}")
-        node = node.find_next_sibling()
-    if not text:
-        return None, "No scholarship data found for NUST"
-    return text, None
+    cache_key = "nust_scholarships"
+    url = UNIVERSITIES["nust"]["scholarship_url"]
+    cached = load_cached_data()
+    resp, error = safe_get(url)
+    if not error:
+        soup = BeautifulSoup(resp.text, 'html.parser')
+        section = soup.find('h2', string=lambda t: t and 'nust scholarships' in t.lower())
+        if section:
+            text = []
+            node = section.find_next_sibling()
+            while node and node.name not in ['h2', 'h1']:
+                if node.name == 'p':
+                    text.append(node.get_text(strip=True))
+                if node.name == 'ul':
+                    for li in node.find_all('li'):
+                        text.append(f"- {li.get_text(strip=True)}")
+                node = node.find_next_sibling()
+            if text:
+                update_time = datetime.datetime.now().isoformat()
+                cached[cache_key] = {
+                    "scholarships": text,
+                    "last_updated": update_time
+                }
+                save_cached_data(cached)
+                return text, None, update_time, False
+            else:
+                error = "No scholarship data found for NUST"
+        else:
+            error = "NUST scholarships section not found"
+    if cache_key in cached:
+        cached_entry = cached[cache_key]
+        return cached_entry["scholarships"], None, cached_entry["last_updated"], True
+    return None, error or "NUST scholarships section not found", None, False
 
 @app.route('/scholarshipsnust', methods=['GET'])
 def scholarships_nust():
-    data, err = scrape_nust_scholarships()
-    if err:
+    data, error, last_updated, from_cache = scrape_nust_scholarships()
+    if error:
         return jsonify({
             "status": "error",
-            "university": UNIVERSITIES["nust"]["name"],
             "source": "National University of Sciences and Technology (NUST) Scholarships",
-            "message": err
+            "message": error
         }), 500
-    return jsonify({
+    response = {
         "status": "success",
-        "university": UNIVERSITIES["nust"]["name"],
+        "uni_id": "nust",
         "source": "National University of Sciences and Technology (NUST) Scholarships",
         "scholarships": data,
-        "last_updated": datetime.datetime.now().isoformat()
-    })
+        "last_updated": last_updated
+    }
+    if from_cache:
+        response["note"] = "Data loaded from cache due to fetch failure"
+    return jsonify(response)
 
 @app.route('/', methods=['GET'])
 def index():

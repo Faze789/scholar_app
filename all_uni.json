@@ -1,0 +1,4710 @@
+{
+    "iiui_fees": {
+        "fee_structure": [
+            {
+                "program": "Certificate in Arabic",
+                "duration": "",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "BS Computer Engineering",
+                "duration": "4",
+                "total_fee": "PKR 114900",
+                "currency": "PKR"
+            },
+            {
+                "program": "BSc Computer Engineering Technology",
+                "duration": "4",
+                "total_fee": "PKR 84800",
+                "currency": "PKR"
+            },
+            {
+                "program": "BSc Mechanical Engineering Technology",
+                "duration": "4",
+                "total_fee": "PKR 84800",
+                "currency": "PKR"
+            },
+            {
+                "program": "BS in Education (Educational Leadership and Management",
+                "duration": "4",
+                "total_fee": "PKR 56700",
+                "currency": "PKR"
+            },
+            {
+                "program": "BS Software Engineering",
+                "duration": "4 year",
+                "total_fee": "PKR 86200",
+                "currency": "PKR"
+            },
+            {
+                "program": "Associate Degree in Education ADE",
+                "duration": "4",
+                "total_fee": "PKR 49700",
+                "currency": "PKR"
+            },
+            {
+                "program": "BS Information Technology",
+                "duration": "4",
+                "total_fee": "PKR 89700",
+                "currency": "PKR"
+            },
+            {
+                "program": "BS Islamic Banking And Finance",
+                "duration": "4",
+                "total_fee": "PKR 56700",
+                "currency": "PKR"
+            },
+            {
+                "program": "BS Economics",
+                "duration": "4",
+                "total_fee": "PKR 56700",
+                "currency": "PKR"
+            },
+            {
+                "program": "BS in Education (English Language Teaching)",
+                "duration": "4",
+                "total_fee": "PKR 56700",
+                "currency": "PKR"
+            },
+            {
+                "program": "BS Accounting and Finance",
+                "duration": "4",
+                "total_fee": "PKR 116700",
+                "currency": "PKR"
+            },
+            {
+                "program": "BS Biology",
+                "duration": "4",
+                "total_fee": "PKR 101400",
+                "currency": "PKR"
+            },
+            {
+                "program": "BS Project Management",
+                "duration": "4",
+                "total_fee": "PKR 71700",
+                "currency": "PKR"
+            },
+            {
+                "program": "BS Electrical Engineering",
+                "duration": "4",
+                "total_fee": "PKR 114900",
+                "currency": "PKR"
+            },
+            {
+                "program": "BA LLB (Hons) Shariah & Law 5 Years",
+                "duration": "4",
+                "total_fee": "PKR 43100",
+                "currency": "PKR"
+            },
+            {
+                "program": "BS Design/Printing",
+                "duration": "4",
+                "total_fee": "PKR 56700",
+                "currency": "PKR"
+            },
+            {
+                "program": "BS Commerce",
+                "duration": "4",
+                "total_fee": "PKR 71700",
+                "currency": "PKR"
+            },
+            {
+                "program": "BSc Civil Engineering Technology",
+                "duration": "4",
+                "total_fee": "PKR 84800",
+                "currency": "PKR"
+            },
+            {
+                "program": "BSc Electrical Engineering Technology",
+                "duration": "4",
+                "total_fee": "PKR 84800",
+                "currency": "PKR"
+            },
+            {
+                "program": "BS Business Analytics",
+                "duration": "4",
+                "total_fee": "PKR 71700",
+                "currency": "PKR"
+            },
+            {
+                "program": "LLB",
+                "duration": "5",
+                "total_fee": "PKR 100700",
+                "currency": "PKR"
+            },
+            {
+                "program": "Bs Persian(Language and literature)",
+                "duration": "4",
+                "total_fee": "PKR 35700",
+                "currency": "PKR"
+            },
+            {
+                "program": "BBA (Hons)",
+                "duration": "4",
+                "total_fee": "PKR 116700",
+                "currency": "PKR"
+            },
+            {
+                "program": "BS Translation & Interpretation",
+                "duration": "4",
+                "total_fee": "PKR 59200",
+                "currency": "PKR"
+            },
+            {
+                "program": "BS Physics",
+                "duration": "4",
+                "total_fee": "PKR 84300",
+                "currency": "PKR"
+            },
+            {
+                "program": "BS Electronic Engineering",
+                "duration": "4 year",
+                "total_fee": "PKR 111400",
+                "currency": "PKR"
+            },
+            {
+                "program": "BS Computer Science (BSCS)",
+                "duration": "4 year",
+                "total_fee": "PKR 86200",
+                "currency": "PKR"
+            },
+            {
+                "program": "BS Mathematics",
+                "duration": "4",
+                "total_fee": "PKR 62700",
+                "currency": "PKR"
+            },
+            {
+                "program": "BS Environmental Science",
+                "duration": "4",
+                "total_fee": "PKR 89700",
+                "currency": "PKR"
+            },
+            {
+                "program": "BS Biotechnology",
+                "duration": "4 Years.",
+                "total_fee": "PKR 97900",
+                "currency": "PKR"
+            },
+            {
+                "program": "BS English",
+                "duration": "4 year",
+                "total_fee": "PKR 54200",
+                "currency": "PKR"
+            },
+            {
+                "program": "BS Persian Language & Literature",
+                "duration": "4 year",
+                "total_fee": "PKR 32200",
+                "currency": "PKR"
+            },
+            {
+                "program": "BS Urdu (Hons)",
+                "duration": "4 year",
+                "total_fee": "PKR 32200",
+                "currency": "PKR"
+            },
+            {
+                "program": "BS Usuluddin (Islamic Studies",
+                "duration": "4",
+                "total_fee": "PKR 35700",
+                "currency": "PKR"
+            },
+            {
+                "program": "BS Civil Engineering",
+                "duration": "4",
+                "total_fee": "PKR 131800",
+                "currency": "PKR"
+            },
+            {
+                "program": "BS International Relations",
+                "duration": "4 year",
+                "total_fee": "PKR 53200",
+                "currency": "PKR"
+            },
+            {
+                "program": "BS Political Science",
+                "duration": "4 year",
+                "total_fee": "PKR 53200",
+                "currency": "PKR"
+            },
+            {
+                "program": "BS Anthropology",
+                "duration": "4",
+                "total_fee": "PKR 56700",
+                "currency": "PKR"
+            },
+            {
+                "program": "BS Bioinformatics (Hons)",
+                "duration": "4 years",
+                "total_fee": "PKR 97900",
+                "currency": "PKR"
+            },
+            {
+                "program": "BS Electrical Technology",
+                "duration": "4 year",
+                "total_fee": "PKR 111400",
+                "currency": "PKR"
+            },
+            {
+                "program": "BS History (Hons)",
+                "duration": "4 year",
+                "total_fee": "PKR 53200",
+                "currency": "PKR"
+            },
+            {
+                "program": "BS Media & Communication",
+                "duration": "4 year",
+                "total_fee": "PKR 53200",
+                "currency": "PKR"
+            },
+            {
+                "program": "BS Pakistan Studies",
+                "duration": "4",
+                "total_fee": "PKR 56700",
+                "currency": "PKR"
+            },
+            {
+                "program": "BS Persion (Hons)",
+                "duration": "4 year",
+                "total_fee": "PKR 32200",
+                "currency": "PKR"
+            },
+            {
+                "program": "BS Psychology (Hons)",
+                "duration": "4 year",
+                "total_fee": "PKR 53200",
+                "currency": "PKR"
+            },
+            {
+                "program": "BA Shariah (Hons)",
+                "duration": "4 year",
+                "total_fee": "PKR 36600",
+                "currency": "PKR"
+            },
+            {
+                "program": "BS Sociology",
+                "duration": "4",
+                "total_fee": "PKR 56700",
+                "currency": "PKR"
+            },
+            {
+                "program": "BS Statistics",
+                "duration": "4",
+                "total_fee": "PKR 62700",
+                "currency": "PKR"
+            },
+            {
+                "program": "BS Arabic",
+                "duration": "4",
+                "total_fee": "PKR 35700",
+                "currency": "PKR"
+            },
+            {
+                "program": "MSc Anthropology",
+                "duration": "2",
+                "total_fee": "PKR 57700",
+                "currency": "PKR"
+            },
+            {
+                "program": "MA English",
+                "duration": "2 years",
+                "total_fee": "PKR 57000",
+                "currency": "PKR"
+            },
+            {
+                "program": "MA History",
+                "duration": "2 years",
+                "total_fee": "PKR 54200",
+                "currency": "PKR"
+            },
+            {
+                "program": "MS International Relations",
+                "duration": "2",
+                "total_fee": "PKR 5800",
+                "currency": "PKR"
+            },
+            {
+                "program": "MA Islamic",
+                "duration": "2 years",
+                "total_fee": "PKR 35200",
+                "currency": "PKR"
+            },
+            {
+                "program": "MS Media & Communication",
+                "duration": "2",
+                "total_fee": "PKR 61720",
+                "currency": "PKR"
+            },
+            {
+                "program": "MSc Media & Mass Communication",
+                "duration": "2 years",
+                "total_fee": "PKR 54200",
+                "currency": "PKR"
+            },
+            {
+                "program": "MA Political Science",
+                "duration": "2 years",
+                "total_fee": "PKR 54200",
+                "currency": "PKR"
+            },
+            {
+                "program": "MSc Psychology",
+                "duration": "2 years",
+                "total_fee": "PKR 54200",
+                "currency": "PKR"
+            },
+            {
+                "program": "MSc Sociology",
+                "duration": "2",
+                "total_fee": "PKR 69310",
+                "currency": "PKR"
+            },
+            {
+                "program": "MA Urdu",
+                "duration": "2 years",
+                "total_fee": "PKR 35200",
+                "currency": "PKR"
+            },
+            {
+                "program": "MS Arabic",
+                "duration": "2 years",
+                "total_fee": "PKR 42700",
+                "currency": "PKR"
+            },
+            {
+                "program": "MBA Business Administration",
+                "duration": "2",
+                "total_fee": "PKR 116700",
+                "currency": "PKR"
+            },
+            {
+                "program": "MS Economics & Finance",
+                "duration": "2",
+                "total_fee": "PKR 57700",
+                "currency": "PKR"
+            },
+            {
+                "program": "MS Electrical",
+                "duration": "2 years",
+                "total_fee": "PKR 117400",
+                "currency": "PKR"
+            },
+            {
+                "program": "MA Persion",
+                "duration": "2 years",
+                "total_fee": "PKR 35200",
+                "currency": "PKR"
+            },
+            {
+                "program": "MS Sociology",
+                "duration": "2",
+                "total_fee": "PKR 61720",
+                "currency": "PKR"
+            },
+            {
+                "program": "MS Software Engineering",
+                "duration": "2",
+                "total_fee": "PKR 97740",
+                "currency": "PKR"
+            },
+            {
+                "program": "MBA Human Resource Management",
+                "duration": "",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "Master in Supply Chain Management",
+                "duration": "2",
+                "total_fee": "PKR 109620",
+                "currency": "PKR"
+            },
+            {
+                "program": "MA Education",
+                "duration": "2",
+                "total_fee": "PKR 57700",
+                "currency": "PKR"
+            },
+            {
+                "program": "MA Pak Studies",
+                "duration": "2 years",
+                "total_fee": "PKR 54200",
+                "currency": "PKR"
+            },
+            {
+                "program": "MA International Relations",
+                "duration": "2 years",
+                "total_fee": "PKR 54200",
+                "currency": "PKR"
+            },
+            {
+                "program": "MA Political Science",
+                "duration": "2 years",
+                "total_fee": "PKR 54200",
+                "currency": "PKR"
+            },
+            {
+                "program": "MA Arabic",
+                "duration": "2",
+                "total_fee": "PKR 38700",
+                "currency": "PKR"
+            },
+            {
+                "program": "MBA Executive",
+                "duration": "2",
+                "total_fee": "PKR 116700",
+                "currency": "PKR"
+            },
+            {
+                "program": "MS Arabic Literature & Linguistics",
+                "duration": "2",
+                "total_fee": "PKR 43615",
+                "currency": "PKR"
+            },
+            {
+                "program": "MSc Physics",
+                "duration": "2",
+                "total_fee": "PKR 89700",
+                "currency": "PKR"
+            },
+            {
+                "program": "MS Electronic Engineering",
+                "duration": "2 years",
+                "total_fee": "PKR 117400",
+                "currency": "PKR"
+            },
+            {
+                "program": "MS Persian language Literature",
+                "duration": "2 years",
+                "total_fee": "PKR 42700",
+                "currency": "PKR"
+            },
+            {
+                "program": "MS Urdu",
+                "duration": "2 years",
+                "total_fee": "PKR 42700",
+                "currency": "PKR"
+            },
+            {
+                "program": "MSc Economics",
+                "duration": "2 years",
+                "total_fee": "PKR 65800",
+                "currency": "PKR"
+            },
+            {
+                "program": "MSc Economics & Finance",
+                "duration": "2 years",
+                "total_fee": "PKR 66800",
+                "currency": "PKR"
+            },
+            {
+                "program": "MS Econometrics",
+                "duration": "2 years",
+                "total_fee": "PKR 80000",
+                "currency": "PKR"
+            },
+            {
+                "program": "MSc Islamic Banking & Finance",
+                "duration": "2 years",
+                "total_fee": "PKR 66800",
+                "currency": "PKR"
+            },
+            {
+                "program": "MS Physics",
+                "duration": "2 years",
+                "total_fee": "PKR 86200",
+                "currency": "PKR"
+            },
+            {
+                "program": "MSc Mathematics",
+                "duration": "2",
+                "total_fee": "PKR 64500",
+                "currency": "PKR"
+            },
+            {
+                "program": "MSc Statistics",
+                "duration": "2",
+                "total_fee": "PKR 64500",
+                "currency": "PKR"
+            },
+            {
+                "program": "MS Engineering Management",
+                "duration": "2",
+                "total_fee": "PKR 77280",
+                "currency": "PKR"
+            },
+            {
+                "program": "MS Usuluddin (Islamic Studies)",
+                "duration": "2",
+                "total_fee": "PKR 43615",
+                "currency": "PKR"
+            },
+            {
+                "program": "MS Biotechnology",
+                "duration": "",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "MS Chemistry, Biosciences and Environmental Sciences",
+                "duration": "",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "MS Computer Science",
+                "duration": "",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "MS Bio Informatics",
+                "duration": "",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "MS Civil Engineering",
+                "duration": "2",
+                "total_fee": "PKR 77280",
+                "currency": "PKR"
+            },
+            {
+                "program": "MS History",
+                "duration": "",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "MS Pakistan Studies",
+                "duration": "4",
+                "total_fee": "PKR 56700",
+                "currency": "PKR"
+            },
+            {
+                "program": "MA Islamic Art & Architecture",
+                "duration": "",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "MS Islamic Art & Architecture",
+                "duration": "",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "MS Psychology",
+                "duration": "",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "MS Teacing of Arabic to Non Arabs",
+                "duration": "2",
+                "total_fee": "PKR 43615",
+                "currency": "PKR"
+            },
+            {
+                "program": "MS Mathematics",
+                "duration": "2",
+                "total_fee": "PKR 60120",
+                "currency": "PKR"
+            },
+            {
+                "program": "MS Statistics",
+                "duration": "2",
+                "total_fee": "PKR 60120",
+                "currency": "PKR"
+            },
+            {
+                "program": "MS Environmental Science",
+                "duration": "2",
+                "total_fee": "PKR 80580",
+                "currency": "PKR"
+            },
+            {
+                "program": "MS Biosciences",
+                "duration": "2",
+                "total_fee": "PKR 80580",
+                "currency": "PKR"
+            },
+            {
+                "program": "MS Chemistry",
+                "duration": "2",
+                "total_fee": "PKR 80580",
+                "currency": "PKR"
+            },
+            {
+                "program": "MS International Relation",
+                "duration": "",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "MS Mechanical Engineering",
+                "duration": "",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "MS Translation Studies",
+                "duration": "2",
+                "total_fee": "PKR 78770",
+                "currency": "PKR"
+            },
+            {
+                "program": "MS Education",
+                "duration": "2",
+                "total_fee": "PKR 61720",
+                "currency": "PKR"
+            },
+            {
+                "program": "MS Project Management",
+                "duration": "2",
+                "total_fee": "PKR 109620",
+                "currency": "PKR"
+            },
+            {
+                "program": "LLM International Trade Law",
+                "duration": "2",
+                "total_fee": "PKR 97020",
+                "currency": "PKR"
+            },
+            {
+                "program": "LLM International Law",
+                "duration": "2",
+                "total_fee": "PKR 97020",
+                "currency": "PKR"
+            },
+            {
+                "program": "LLM Human Rights Law",
+                "duration": "2",
+                "total_fee": "PKR 97020",
+                "currency": "PKR"
+            },
+            {
+                "program": "LLM Corporate Law",
+                "duration": "2",
+                "total_fee": "PKR 97020",
+                "currency": "PKR"
+            },
+            {
+                "program": "MS Nanoscience and Engineering",
+                "duration": "2",
+                "total_fee": "PKR 89100",
+                "currency": "PKR"
+            },
+            {
+                "program": "MS Electrical Engineering",
+                "duration": "2",
+                "total_fee": "PKR 77280",
+                "currency": "PKR"
+            },
+            {
+                "program": "MA Pakistan Studies",
+                "duration": "2",
+                "total_fee": "PKR 56700",
+                "currency": "PKR"
+            },
+            {
+                "program": "MA Usuluddin (Islamic Studies)",
+                "duration": "2",
+                "total_fee": "PKR 38700",
+                "currency": "PKR"
+            },
+            {
+                "program": "MS Biomedical Engineering",
+                "duration": "2",
+                "total_fee": "PKR 77280",
+                "currency": "PKR"
+            },
+            {
+                "program": "MS Management Sciences",
+                "duration": "2",
+                "total_fee": "PKR 109620",
+                "currency": "PKR"
+            },
+            {
+                "program": "MPhil Economics",
+                "duration": "",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "PhD Engineering Management",
+                "duration": "",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "PhD Biomedical",
+                "duration": "3",
+                "total_fee": "PKR 82230",
+                "currency": "PKR"
+            },
+            {
+                "program": "PhD Psychology",
+                "duration": "",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "PhD Chemistry",
+                "duration": "3",
+                "total_fee": "PKR 87180",
+                "currency": "PKR"
+            },
+            {
+                "program": "PhD Civil Engineering",
+                "duration": "3",
+                "total_fee": "PKR 82230",
+                "currency": "PKR"
+            },
+            {
+                "program": "PhD Chemistry, Biosciences and Environmental Sciences",
+                "duration": "",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "PhD Nanoscience and Engineering",
+                "duration": "3",
+                "total_fee": "PKR 89100",
+                "currency": "PKR"
+            },
+            {
+                "program": "PhD Natural Science",
+                "duration": "3 year",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "PhD Arabic literature & linguistics",
+                "duration": "3",
+                "total_fee": "PKR 43615",
+                "currency": "PKR"
+            },
+            {
+                "program": "PhD Physics",
+                "duration": "3",
+                "total_fee": "PKR 82230",
+                "currency": "PKR"
+            },
+            {
+                "program": "PhD Computer Science",
+                "duration": "3 year",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "PhD Mechanical Engineering",
+                "duration": "3",
+                "total_fee": "PKR 82230",
+                "currency": "PKR"
+            },
+            {
+                "program": "PhD Electronic Engineering",
+                "duration": "3 year",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "PhD Urdu",
+                "duration": "3 year",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "PhD Environmental Science",
+                "duration": "3",
+                "total_fee": "PKR 87180",
+                "currency": "PKR"
+            },
+            {
+                "program": "PhD Biotechnology",
+                "duration": "3 year",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "PhD Econometrics",
+                "duration": "3 year",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "PhD Economics",
+                "duration": "3",
+                "total_fee": "PKR 57700",
+                "currency": "PKR"
+            },
+            {
+                "program": "PhD Electrical Engineering",
+                "duration": "3",
+                "total_fee": "PKR 82230",
+                "currency": "PKR"
+            },
+            {
+                "program": "PhD Education",
+                "duration": "3 year",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "PhD English",
+                "duration": "3 year",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "PhD Finance, Marketing & Management",
+                "duration": "3 year",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "PhD History",
+                "duration": "3 year",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "PhD International Relations",
+                "duration": "3 year",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "PhD Law",
+                "duration": "3 year",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "PhD Mathematics",
+                "duration": "3",
+                "total_fee": "PKR 87180",
+                "currency": "PKR"
+            },
+            {
+                "program": "PhD Media & Communication",
+                "duration": "",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "PhD Pakistan Studies",
+                "duration": "",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "PhD Political Science",
+                "duration": "",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "PhD Sociology",
+                "duration": "3",
+                "total_fee": "PKR 69310",
+                "currency": "PKR"
+            },
+            {
+                "program": "PhD Software Engineering",
+                "duration": "3",
+                "total_fee": "PKR 87180",
+                "currency": "PKR"
+            },
+            {
+                "program": "PhD Statistics",
+                "duration": "3",
+                "total_fee": "PKR 60120",
+                "currency": "PKR"
+            },
+            {
+                "program": "PhD Technology Management",
+                "duration": "",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "PhD Usuluddin islamic Studies",
+                "duration": "3",
+                "total_fee": "PKR 43615",
+                "currency": "PKR"
+            },
+            {
+                "program": "Diploma in  English Language (Elementary to Advance Level)",
+                "duration": "",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "Certificate  English Language (Elementary and Advance Level)",
+                "duration": "",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "Academic Writing Course",
+                "duration": "",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "Diploma in Urdu Lanagauge",
+                "duration": "",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "Certificate Course in Urdu Lanaguage",
+                "duration": "",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "Diploma in Persian Language Courses",
+                "duration": "",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "Certificate Course Perssian Language",
+                "duration": "",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "Diploma in Chinese Language Courses",
+                "duration": "",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "International Post Doctorial Fellowship",
+                "duration": "",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "Short Course English",
+                "duration": "",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "Short Course Urdu",
+                "duration": "",
+                "total_fee": "Not available",
+                "currency": null
+            },
+            {
+                "program": "Short Course Persian and Chinese",
+                "duration": "",
+                "total_fee": "Not available",
+                "currency": null
+            }
+        ],
+        "last_updated": "2025-09-05T02:06:47.129441"
+    },
+    "uet_fees": {
+        "fee_structure": [
+            {
+                "UET BSCS 4-Year Program": "Admission Fee (only once)",
+                "Subsidized": "Rs. 49,760",
+                "Partially Subsidized": "Rs. 65,642"
+            },
+            {
+                "UET BSCS 4-Year Program": "Medical Fee (Per Semester)",
+                "Subsidized": "Rs. 627",
+                "Partially Subsidized": "Rs. 627"
+            },
+            {
+                "UET BSCS 4-Year Program": "Examination Fee (Per Semester)",
+                "Subsidized": "Rs. 1,404",
+                "Partially Subsidized": "Rs. 1,404"
+            },
+            {
+                "UET BSCS 4-Year Program": "Sports Fee (Per Semester)",
+                "Subsidized": "Rs. 753",
+                "Partially Subsidized": "Rs. 753"
+            },
+            {
+                "UET BSCS 4-Year Program": "Facilities Charges",
+                "Subsidized": "Rs. 4,000 for day scholars and Rs. 2,000 for hostel residents",
+                "Partially Subsidized": "IRs. 4,000 for day scholars and Rs. 2,000 for hostel residents A"
+            },
+            {
+                "UET BSCS 4-Year Program": "Summer Semester Subject Registration Fee",
+                "Subsidized": "Rs. 2,509 per credit hour",
+                "Partially Subsidized": "Rs. 8,781 per credit hour"
+            },
+            {
+                "UET BSCS 4-Year Program": "First Semester Fall (1st Installment)",
+                "Subsidized": "Rs. 49,760.00",
+                "Partially Subsidized": "Rs. 65,642.00"
+            },
+            {
+                "UET BSCS 4-Year Program": "First Semester Fall (2nd Installment)",
+                "Subsidized": "50,577.00",
+                "Partially Subsidized": "Rs. 168,591"
+            },
+            {
+                "UET BSCS 4-Year Program": "Second Semester",
+                "Subsidized": "Rs. 62,427",
+                "Partially Subsidized": "Rs. 189,915"
+            },
+            {
+                "UET BSCS 4-Year Program": "Third Semester",
+                "Subsidized": "Rs. 68,496",
+                "Partially Subsidized": "Rs. 200,031"
+            },
+            {
+                "UET BSCS 4-Year Program": "Fourth Semester",
+                "Subsidized": "Rs. 68,496",
+                "Partially Subsidized": "Rs. 200,031"
+            },
+            {
+                "UET BSCS 4-Year Program": "Fifth Semester",
+                "Subsidized": "Rs. 75,293",
+                "Partially Subsidized": "Rs. 210,753"
+            },
+            {
+                "UET BSCS 4-Year Program": "Sixth Semester",
+                "Subsidized": "Rs. 75,293",
+                "Partially Subsidized": "Rs. 210,753"
+            },
+            {
+                "UET BSCS 4-Year Program": "Seventh Semester",
+                "Subsidized": "Rs. 82,907",
+                "Partially Subsidized": "Rs. 222,119"
+            },
+            {
+                "UET BSCS 4-Year Program": "Final Semester",
+                "Subsidized": "Rs. 86,907.00",
+                "Partially Subsidized": "Rs. 226,119.00"
+            }
+        ],
+        "last_updated": "2025-09-05T02:07:26.669140"
+    },
+    "lums_fees": {
+        "fee_structure": {
+            "ph._d_programs": [
+                {
+                    "program": "Admission Fee (one time)",
+                    "duration_years": "Rs. 134,370",
+                    "fee": "-"
+                },
+                {
+                    "program": "Credit Hours",
+                    "duration_years": "18",
+                    "fee": "12"
+                },
+                {
+                    "program": "Semester Registration Fee",
+                    "duration_years": "Rs. 42,700",
+                    "fee": "Rs. 42,700"
+                },
+                {
+                    "program": "Tuition fee",
+                    "duration_years": "Rs. 590,940",
+                    "fee": "Rs. 393,960"
+                },
+                {
+                    "program": "Self-Supporting Evening Seats Fee",
+                    "duration_years": "Rs. 102,410",
+                    "fee": "Rs. 102,410"
+                },
+                {
+                    "program": "General Security",
+                    "duration_years": "Rs. 51,000",
+                    "fee": "-"
+                }
+            ],
+            "masters_programs": [
+                {
+                    "program": "Admission Fee (one time)",
+                    "duration_years": "Rs. 134,370",
+                    "fee": "-"
+                },
+                {
+                    "program": "Credit Hours",
+                    "duration_years": "18",
+                    "fee": "12"
+                },
+                {
+                    "program": "Semester Registration Fee",
+                    "duration_years": "Rs. 42,700",
+                    "fee": "Rs. 42,700"
+                },
+                {
+                    "program": "Tuition fee",
+                    "duration_years": "Rs. 590,940",
+                    "fee": "Rs. 393,960"
+                },
+                {
+                    "program": "Self-Supporting Evening Seats Fee",
+                    "duration_years": "Rs. 102,410",
+                    "fee": "Rs. 102,410"
+                },
+                {
+                    "program": "General Security",
+                    "duration_years": "Rs. 51,000",
+                    "fee": "-"
+                }
+            ],
+            "bachelors_programs": [
+                {
+                    "program": "Admission Fee (one time)",
+                    "duration_years": "Rs. 134,370",
+                    "fee": "-"
+                },
+                {
+                    "program": "Credit Hours",
+                    "duration_years": "18",
+                    "fee": "12"
+                },
+                {
+                    "program": "Semester Registration Fee",
+                    "duration_years": "Rs. 42,700",
+                    "fee": "Rs. 42,700"
+                },
+                {
+                    "program": "Tuition fee",
+                    "duration_years": "Rs. 590,940",
+                    "fee": "Rs. 393,960"
+                },
+                {
+                    "program": "Self-Supporting Evening Seats Fee",
+                    "duration_years": "Rs. 102,410",
+                    "fee": "Rs. 102,410"
+                },
+                {
+                    "program": "General Security",
+                    "duration_years": "Rs. 51,000",
+                    "fee": "-"
+                }
+            ],
+            "m._phil_programs": [
+                {
+                    "program": "Admission Fee (one time)",
+                    "duration_years": "Rs. 134,370",
+                    "fee": "-"
+                },
+                {
+                    "program": "Credit Hours",
+                    "duration_years": "18",
+                    "fee": "12"
+                },
+                {
+                    "program": "Semester Registration Fee",
+                    "duration_years": "Rs. 42,700",
+                    "fee": "Rs. 42,700"
+                },
+                {
+                    "program": "Tuition fee",
+                    "duration_years": "Rs. 590,940",
+                    "fee": "Rs. 393,960"
+                },
+                {
+                    "program": "Self-Supporting Evening Seats Fee",
+                    "duration_years": "Rs. 102,410",
+                    "fee": "Rs. 102,410"
+                },
+                {
+                    "program": "General Security",
+                    "duration_years": "Rs. 51,000",
+                    "fee": "-"
+                }
+            ],
+            "others_programs": [
+                {
+                    "program": "Admission Fee (one time)",
+                    "duration_years": "Rs. 134,370",
+                    "fee": "-"
+                },
+                {
+                    "program": "Credit Hours",
+                    "duration_years": "18",
+                    "fee": "12"
+                },
+                {
+                    "program": "Semester Registration Fee",
+                    "duration_years": "Rs. 42,700",
+                    "fee": "Rs. 42,700"
+                },
+                {
+                    "program": "Tuition fee",
+                    "duration_years": "Rs. 590,940",
+                    "fee": "Rs. 393,960"
+                },
+                {
+                    "program": "Self-Supporting Evening Seats Fee",
+                    "duration_years": "Rs. 102,410",
+                    "fee": "Rs. 102,410"
+                },
+                {
+                    "program": "General Security",
+                    "duration_years": "Rs. 51,000",
+                    "fee": "-"
+                }
+            ]
+        },
+        "last_updated": "2025-09-05T02:07:49.281989"
+    },
+    "ned_fees": {
+        "fee_structure": [
+            {
+                "Description": "Admission Fee (payable once)",
+                "Amount": "Rs. 43,000 (non-refundable)"
+            },
+            {
+                "Description": "Total Semesters",
+                "Amount": "8"
+            },
+            {
+                "Description": "Security Fee (refundable)",
+                "Amount": "Rs. 13,450 (included in admission fee)"
+            },
+            {
+                "Description": "Tuition Fee (merit seats)",
+                "Amount": "Rs. 30,900 (per semester)"
+            },
+            {
+                "Description": "Total Degree Fee (self-finance)",
+                "Amount": "Rs. 800,000 (SF1 to SF-5)"
+            },
+            {
+                "Description": "Total Degree Fee (self-finance)",
+                "Amount": "Rs. 1,000,000 (SF6 to SF-11)"
+            },
+            {
+                "Course/Program Name": "Postgraduate Certiifcate in Civil and Petroieum Engineering",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Postgraudate Mechanical and Manfacturing Engineering",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Postgraduate Certiifcate in information Sciences and Humanities",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Postgraduate Certiifcate in Electrical and Computer Engineering",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Postgraduate Certiifcate in Chemical & Process Engineering",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Postgraduate Certiifcate in Architecture & Management Sciences",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "BTech Civil Engineering",
+                "Duration": "4",
+                "Fee Structure": "Rs.14,560/-"
+            },
+            {
+                "Course/Program Name": "BTech Mechanical Engineering",
+                "Duration": "4",
+                "Fee Structure": "Rs.14,560/-"
+            },
+            {
+                "Course/Program Name": "BTech Electrical Engineering",
+                "Duration": "4",
+                "Fee Structure": "Rs.14,560/-"
+            },
+            {
+                "Course/Program Name": "BS Data Science",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "BS Animation Visual Effect & Multimedia",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "BS Artificial Intelligence",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "BS Textile Science & Technology",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Bachelor Construction Engineering",
+                "Duration": "4",
+                "Fee Structure": "Rs.14,560/-"
+            },
+            {
+                "Course/Program Name": "Bachelor Automotive Engineering",
+                "Duration": "4",
+                "Fee Structure": "Rs.14,560/-"
+            },
+            {
+                "Course/Program Name": "Bachelor Chemical Engineering",
+                "Duration": "4",
+                "Fee Structure": "Rs.14,560/-"
+            },
+            {
+                "Course/Program Name": "Bachelor Civil Engineering",
+                "Duration": "4",
+                "Fee Structure": "Rs.14,560/-"
+            },
+            {
+                "Course/Program Name": "Bachelor Telecommunication Engineering",
+                "Duration": "4",
+                "Fee Structure": "Rs.14,560/-"
+            },
+            {
+                "Course/Program Name": "Bachelor Construction Engineering",
+                "Duration": "4",
+                "Fee Structure": "Rs.14,560/-"
+            },
+            {
+                "Course/Program Name": "Bachelor Electronic Engineering",
+                "Duration": "4",
+                "Fee Structure": "Rs.14,560/-"
+            },
+            {
+                "Course/Program Name": "Bachelor  Urban Engineering",
+                "Duration": "4",
+                "Fee Structure": "Rs.14,560/-"
+            },
+            {
+                "Course/Program Name": "Bachelor Industrial & Manufacturing Engineering",
+                "Duration": "4",
+                "Fee Structure": "Rs.14,560/-"
+            },
+            {
+                "Course/Program Name": "Bachelor Mechanical Engineering",
+                "Duration": "4",
+                "Fee Structure": "Rs.14,560/-"
+            },
+            {
+                "Course/Program Name": "Bachelor Electrical Engineering",
+                "Duration": "4",
+                "Fee Structure": "Rs.14,560/-"
+            },
+            {
+                "Course/Program Name": "Bachelor Textile Engineering",
+                "Duration": "4",
+                "Fee Structure": "Rs.14,560/-"
+            },
+            {
+                "Course/Program Name": "Bachelor Bio Medical Engineering",
+                "Duration": "4",
+                "Fee Structure": "Rs.14,560/-"
+            },
+            {
+                "Course/Program Name": "Bachelor Software Engineering",
+                "Duration": "4 year",
+                "Fee Structure": "1st year Fee 37,020/-"
+            },
+            {
+                "Course/Program Name": "Bachelor Materials Engineering",
+                "Duration": "4",
+                "Fee Structure": "Rs.14,560/-"
+            },
+            {
+                "Course/Program Name": "Bachelor Polymers & Petroleum Engineering",
+                "Duration": "4",
+                "Fee Structure": "Rs.14,560/-"
+            },
+            {
+                "Course/Program Name": "Bachelor Metallurgical Engineering",
+                "Duration": "4",
+                "Fee Structure": "Rs.14,560/-"
+            },
+            {
+                "Course/Program Name": "Bachelor Food Engineering",
+                "Duration": "4",
+                "Fee Structure": "Rs.14,560/-"
+            },
+            {
+                "Course/Program Name": "Bachelor Architecture",
+                "Duration": "4",
+                "Fee Structure": "Rs.14,560/-"
+            },
+            {
+                "Course/Program Name": "Bachelor Management Science",
+                "Duration": "4",
+                "Fee Structure": "Rs.14,560/-"
+            },
+            {
+                "Course/Program Name": "Bachelor Development Studies",
+                "Duration": "4",
+                "Fee Structure": "Rs.29,560/-"
+            },
+            {
+                "Course/Program Name": "Bachelor Textile Science",
+                "Duration": "4",
+                "Fee Structure": "Rs.14,560/-"
+            },
+            {
+                "Course/Program Name": "Bachelor Applied Physics",
+                "Duration": "4",
+                "Fee Structure": "Rs.29,560/-"
+            },
+            {
+                "Course/Program Name": "Bachelor Industrial Chemistry",
+                "Duration": "4",
+                "Fee Structure": "Rs.29,560/-"
+            },
+            {
+                "Course/Program Name": "Bachelor Computational Finance",
+                "Duration": "4",
+                "Fee Structure": "Rs.29,560/-"
+            },
+            {
+                "Course/Program Name": "Bachelor Computer Science",
+                "Duration": "4 year",
+                "Fee Structure": "1st year Fee 37,020/-"
+            },
+            {
+                "Course/Program Name": "Bachelor Information Technology",
+                "Duration": "4 year",
+                "Fee Structure": "1st year Fee 37,020/-"
+            },
+            {
+                "Course/Program Name": "BSc Civil Engineering",
+                "Duration": "4",
+                "Fee Structure": "Rs.14,560/-"
+            },
+            {
+                "Course/Program Name": "BSc Mechanical Engineering",
+                "Duration": "4",
+                "Fee Structure": "Rs.14,560/-"
+            },
+            {
+                "Course/Program Name": "BSc Chemical Engineering",
+                "Duration": "4",
+                "Fee Structure": "Rs.14,560/-"
+            },
+            {
+                "Course/Program Name": "BS Economics & Finance",
+                "Duration": "4",
+                "Fee Structure": "Rs.29,560/-"
+            },
+            {
+                "Course/Program Name": "BS English Lingustics",
+                "Duration": "4",
+                "Fee Structure": "Rs.14,560/-"
+            },
+            {
+                "Course/Program Name": "Postgraduate Diploma in Project Management",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Postgraduate Diploma in Supply Chain Management",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Postgraduate Diploma in Business Management",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Postgraduate Diploma in Occupational Health & Safety",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Postgraduate Diploma in Procurement Contract & Law",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Postgraduate Diploma in Cyber Security",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Postgraduate Diploma in Textile Management",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Postgraduate Diploma in Reliability Engineering",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Postgraduate Diploma in Construction Management",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Postgraduate Diploma in Economics & Financial Management",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Postgraduate Diploma in Marketing Management",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Master Engineering Management",
+                "Duration": "2",
+                "Fee Structure": "Total 14000/-"
+            },
+            {
+                "Course/Program Name": "Master Supply Chain Management",
+                "Duration": "2",
+                "Fee Structure": "Total 14000/-"
+            },
+            {
+                "Course/Program Name": "Master Structural Engineering",
+                "Duration": "2",
+                "Fee Structure": "Total 15000/-"
+            },
+            {
+                "Course/Program Name": "Master Geo-technical Engineering",
+                "Duration": "2",
+                "Fee Structure": "Total 15000/-"
+            },
+            {
+                "Course/Program Name": "Master Transportation Engineering",
+                "Duration": "2",
+                "Fee Structure": "Total 15000/-"
+            },
+            {
+                "Course/Program Name": "Master Coastal and Water Resources Engineering",
+                "Duration": "2",
+                "Fee Structure": "Total 15000/-"
+            },
+            {
+                "Course/Program Name": "Master Construction Management",
+                "Duration": "2",
+                "Fee Structure": "Total 14000/-"
+            },
+            {
+                "Course/Program Name": "Master Water Resource Management",
+                "Duration": "2",
+                "Fee Structure": "Total 14000/-"
+            },
+            {
+                "Course/Program Name": "Master Transportation Infrastructure Management",
+                "Duration": "2",
+                "Fee Structure": "Total 14000/-"
+            },
+            {
+                "Course/Program Name": "Master Urban & Regional Planning",
+                "Duration": "2",
+                "Fee Structure": "Total 14000/-"
+            },
+            {
+                "Course/Program Name": "Master Environmental Engineering",
+                "Duration": "2",
+                "Fee Structure": "Total 14000/-"
+            },
+            {
+                "Course/Program Name": "Master Environmental Management",
+                "Duration": "2",
+                "Fee Structure": "Total 14000/-"
+            },
+            {
+                "Course/Program Name": "Master Structural Earthquake Engineering",
+                "Duration": "2",
+                "Fee Structure": "Total 15000/-"
+            },
+            {
+                "Course/Program Name": "Master Disaster Management & Sciences",
+                "Duration": "2",
+                "Fee Structure": "Total 14000/-"
+            },
+            {
+                "Course/Program Name": "Master Design Engineering",
+                "Duration": "2",
+                "Fee Structure": "Total 15000/-"
+            },
+            {
+                "Course/Program Name": "Master Energy Systems",
+                "Duration": "2",
+                "Fee Structure": "Total 14000/-"
+            },
+            {
+                "Course/Program Name": "Master of Polymer & Petrochemical Engineering",
+                "Duration": "2",
+                "Fee Structure": "Total 15000/-"
+            },
+            {
+                "Course/Program Name": "MS Applied Linguistics",
+                "Duration": "2",
+                "Fee Structure": "Total 14000/-"
+            },
+            {
+                "Course/Program Name": "MS Physics",
+                "Duration": "2",
+                "Fee Structure": "Total 14000/-"
+            },
+            {
+                "Course/Program Name": "MS Industrial Chemistry",
+                "Duration": "2",
+                "Fee Structure": "Total 14000/-"
+            },
+            {
+                "Course/Program Name": "MS  Mathematics",
+                "Duration": "2",
+                "Fee Structure": "Total 14000/-"
+            },
+            {
+                "Course/Program Name": "MS Computer Science & Information Technology",
+                "Duration": "2",
+                "Fee Structure": "Total 14000/-"
+            },
+            {
+                "Course/Program Name": "MS Information Security",
+                "Duration": "2",
+                "Fee Structure": "Total 14000/-"
+            },
+            {
+                "Course/Program Name": "Master Materials Engineering",
+                "Duration": "2",
+                "Fee Structure": "Total 15000/-"
+            },
+            {
+                "Course/Program Name": "Master Chemical Engineering",
+                "Duration": "2",
+                "Fee Structure": "Total 15000/-"
+            },
+            {
+                "Course/Program Name": "Master Micro System Design",
+                "Duration": "2",
+                "Fee Structure": "Total 14000/-"
+            },
+            {
+                "Course/Program Name": "Master Industrial Electronics",
+                "Duration": "2",
+                "Fee Structure": "Total 14000/-"
+            },
+            {
+                "Course/Program Name": "Master Telecommunications Engineering",
+                "Duration": "2",
+                "Fee Structure": "Total 15000/-"
+            },
+            {
+                "Course/Program Name": "Master Computer Architecture & Systems Design",
+                "Duration": "2",
+                "Fee Structure": "Total 14000/-"
+            },
+            {
+                "Course/Program Name": "Master Computer Network & Performance Evaluation",
+                "Duration": "2",
+                "Fee Structure": "Total 14000/-"
+            },
+            {
+                "Course/Program Name": "Master Automotive Design",
+                "Duration": "2",
+                "Fee Structure": "Total 14000/-"
+            },
+            {
+                "Course/Program Name": "Master Automotive Manufacturing",
+                "Duration": "2",
+                "Fee Structure": "Total 14000/-"
+            },
+            {
+                "Course/Program Name": "Master Industrial Managaement",
+                "Duration": "2",
+                "Fee Structure": "Total 14000/-"
+            },
+            {
+                "Course/Program Name": "Master Quality Management",
+                "Duration": "2",
+                "Fee Structure": "Total 14000/-"
+            },
+            {
+                "Course/Program Name": "Master Textile Engineering",
+                "Duration": "2",
+                "Fee Structure": "Total 15000/-"
+            },
+            {
+                "Course/Program Name": "PGD Coal Power Engineering",
+                "Duration": "2",
+                "Fee Structure": "Total 15000/-"
+            },
+            {
+                "Course/Program Name": "MS Excel",
+                "Duration": "2",
+                "Fee Structure": "Total 14000/-"
+            },
+            {
+                "Course/Program Name": "Master in Civil & Petroleum Engineering",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Master in information, Sciences & Humanities",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Master in Architecture & Management Sciences",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Master Civil Engineering & Architecture",
+                "Duration": "2",
+                "Fee Structure": "Total 14000/-"
+            },
+            {
+                "Course/Program Name": "Master Mechanical & Manufacturing Engineering",
+                "Duration": "2",
+                "Fee Structure": "Total 15000/-"
+            },
+            {
+                "Course/Program Name": "Master Electrical & Computer Engineering",
+                "Duration": "2",
+                "Fee Structure": "Total 15000/-"
+            },
+            {
+                "Course/Program Name": "Master Information Science & Humanities",
+                "Duration": "2",
+                "Fee Structure": "Total 14000/-"
+            },
+            {
+                "Course/Program Name": "Masters Chemical & Process Engineering",
+                "Duration": "2",
+                "Fee Structure": "Total 15000/-"
+            },
+            {
+                "Course/Program Name": "Master Bio Medical Engineering",
+                "Duration": "2",
+                "Fee Structure": "Total 15000/-"
+            },
+            {
+                "Course/Program Name": "Postgraduate Diploma in Cyber Threat Intelligence and Privacy Protection",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Postgraduate Diploma in Data Science With Artificial Intelligence",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Postgraduate Diploma in Network and Data Science",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Postgraduate Diploma in Smart Internet of Things",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Postgraduate Diploma in Construction Management",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Postgraduate Diploma in Professional Construction Management",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Postgraduate Diploma in Garment Manufacturing",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Postgraduate Diploma in Art and Design Management",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Postgraduate Diploma in Sustainable Engineering",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Postgraduate Diploma in Food Processing",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Postgraduate Diploma in English Teaching in Secondary School",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Postgraduate Diploma in Advanced English Language Teaching",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Postgraduate Diploma in Human Resource Management",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Postgraduate Diploma in Corporate Management",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Postgraduate Diploma in Total Quality Management",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Postgraduate Diploma in Accounting and Finance",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Postgraduate Diploma in Organization Leadership and Business Strategy",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Postgraduate Diploma in Coasting and Pricing in Commercial Organization",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Postgraduate Diploma in Production Management",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "PhD Civil & Petroleum Engineering",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "PhD Mechanical & Manufacturing Engineering",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "PhD Electrical & Computer Engineering",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "PhD Chemical & Process Engineering",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "PhD Information Sciences and Humanities",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "PhD Chemical and Engineering",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "PhD Architecture and Management Sciences",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Diploma in Digital Marketing",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Certificate in Industrial Energy Management",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Certificate in Corrosion & Corrosion Control in Industrial Practices",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Certificate in Strategic Management",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Certificate in Industrial Control System",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Certificate in Supply Chain Professional",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Certificate in Mobile App Development",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Certificate in Software Engineering and Java Programming",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Certificate in Web Engineering Professional",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Certificate in Graphic and Web Design",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "GRE Preparation",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Certificate in Advanced Energy Audit",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Certificate in Professional Safety Practitioner PSP",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Certificate in Accounting Software Professional",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Certificate in Practitioner Human Resource",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Postgraduate Certiifcate in Chemical & Process Engineering",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Postgraduate Certiifcate in Electrical and Computer Engineering",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Postgraduate Certiifcate in information Sciences and Humanities",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            }
+        ],
+        "last_updated": "2025-09-05T02:08:01.053580"
+    },
+    "uol_fees": {
+        "fee_structure": {
+            "BSCS": [],
+            "BBA": [
+                {
+                    "Semesters": "1st Semester",
+                    "Enrollment Fee (per semester)": "Rs. 3,500",
+                    "Examination Fee (per semester)": "Rs. 3,500",
+                    "Tuition Fee": "Rs. 135,000",
+                    "Total Amount (semester wise)": "Rs. 145,000"
+                },
+                {
+                    "Semesters": "2nd Semester",
+                    "Enrollment Fee (per semester)": "Rs. 3,000",
+                    "Examination Fee (per semester)": "Rs. 3,000",
+                    "Tuition Fee": "Rs. 162,000",
+                    "Total Amount (semester wise)": "Rs. 163,800"
+                },
+                {
+                    "Semesters": "3rd Semester",
+                    "Enrollment Fee (per semester)": "Rs. 2,500",
+                    "Examination Fee (per semester)": "Rs. 2,500",
+                    "Tuition Fee": "Rs. 161,500",
+                    "Total Amount (semester wise)": "Rs. 164,800"
+                },
+                {
+                    "Semesters": "4th Semester",
+                    "Enrollment Fee (per semester)": "Rs. 2,500",
+                    "Examination Fee (per semester)": "Rs. 2,500",
+                    "Tuition Fee": "Rs. 171,000",
+                    "Total Amount (semester wise)": "Rs. 179,000"
+                },
+                {
+                    "Semesters": "5th Semester",
+                    "Enrollment Fee (per semester)": "Rs. 2,500",
+                    "Examination Fee (per semester)": "Rs. 2,500",
+                    "Tuition Fee": "Rs. 180,000",
+                    "Total Amount (semester wise)": "Rs. 188,000"
+                },
+                {
+                    "Semesters": "6th Semester",
+                    "Enrollment Fee (per semester)": "Rs. 2,500",
+                    "Examination Fee (per semester)": "Rs. 2,500",
+                    "Tuition Fee": "Rs. 180,000",
+                    "Total Amount (semester wise)": "Rs. 152,000"
+                },
+                {
+                    "Semesters": "7th Semester",
+                    "Enrollment Fee (per semester)": "Rs. 2,500",
+                    "Examination Fee (per semester)": "Rs. 2,500",
+                    "Tuition Fee": "Rs. 152,000",
+                    "Total Amount (semester wise)": "Rs. 160,000"
+                },
+                {
+                    "Semesters": "8th Semester",
+                    "Enrollment Fee (per semester)": "Rs. 2,500",
+                    "Examination Fee (per semester)": "Rs. 2,500",
+                    "Tuition Fee": "Rs. 157,500",
+                    "Total Amount (semester wise)": "Rs. 160,500"
+                }
+            ],
+            "MPhil Programs": [
+                {
+                    "Course/Program Name": "MPhil Education",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 344,000"
+                },
+                {
+                    "Course/Program Name": "MPhil English",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 485,000"
+                },
+                {
+                    "Course/Program Name": "MPhil English Literature",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 485,000"
+                },
+                {
+                    "Course/Program Name": "MPhil Applied Linguistics",
+                    "Duration": "2",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MPhil Pharmaceutics",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 543,000"
+                },
+                {
+                    "Course/Program Name": "MPhil Management Science",
+                    "Duration": "2",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MPhil Pharmacognosy",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 543,000"
+                },
+                {
+                    "Course/Program Name": "MPhil Pharmaceutical Chemistry",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 543,000"
+                },
+                {
+                    "Course/Program Name": "MPhil Biochemistry",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 580,000"
+                },
+                {
+                    "Course/Program Name": "MPhil Microbiology",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 814,000"
+                },
+                {
+                    "Course/Program Name": "MPhil Physiology",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee  814,000"
+                },
+                {
+                    "Course/Program Name": "MPhil Biotechnology",
+                    "Duration": "2",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MPhil Molecular Biology",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 580,000"
+                },
+                {
+                    "Course/Program Name": "MPhil Forensic Science",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 581,000"
+                },
+                {
+                    "Course/Program Name": "MPhil Accounting Finance",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 386,800"
+                },
+                {
+                    "Course/Program Name": "MPhil Commerce",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MPhil Islamic Studies",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 344,000"
+                },
+                {
+                    "Course/Program Name": "MPhil Mathematics",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 389,000"
+                },
+                {
+                    "Course/Program Name": "MPhil Applied Economics",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 432,000"
+                },
+                {
+                    "Course/Program Name": "MPhil Environmental Sciences",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 389,000"
+                },
+                {
+                    "Course/Program Name": "MPhil Chemistry",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 389,000"
+                },
+                {
+                    "Course/Program Name": "MPhil Pharmacology",
+                    "Duration": "",
+                    "Fee Structure": "Total Fee 543,000"
+                },
+                {
+                    "Course/Program Name": "MPhil Media and Mass Communication Studies",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 419,000"
+                },
+                {
+                    "Course/Program Name": "Mphil Virology and Molecular Pathology",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 559,000"
+                },
+                {
+                    "Course/Program Name": "MPhil Immunology and Molecular Pathology",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 559,000"
+                },
+                {
+                    "Course/Program Name": "MPhil Sports Science",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 413,000"
+                },
+                {
+                    "Course/Program Name": "MPhil Physical Therapy",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 596,000"
+                },
+                {
+                    "Course/Program Name": "MPhil Medical  Ultrasound Technology",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MPhil Medical Imaging Technology",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MPhil Zoology",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 580,000"
+                },
+                {
+                    "Course/Program Name": "MPhil Botany",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 566,000"
+                },
+                {
+                    "Course/Program Name": "MPhil Human Nutrition Dietetics",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee  633,200"
+                },
+                {
+                    "Course/Program Name": "MPhil Food Science Technology",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 559,000"
+                },
+                {
+                    "Course/Program Name": "MPhil Food Sciences and Technology",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 559,000"
+                },
+                {
+                    "Course/Program Name": "MPhil Physics",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 389,000"
+                },
+                {
+                    "Course/Program Name": "MPhil Mathematics",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 389,000"
+                },
+                {
+                    "Course/Program Name": "DPT",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "Mphil Public Health",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 574,000"
+                },
+                {
+                    "Course/Program Name": "MPhil English Linguistics",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 485,000"
+                },
+                {
+                    "Course/Program Name": "Mphil Materials Science",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                }
+            ],
+            "Masters Programs": [
+                {
+                    "Course/Program Name": "MS Law",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 408,000"
+                },
+                {
+                    "Course/Program Name": "MBBS",
+                    "Duration": "5",
+                    "Fee Structure": "Local Students Total Fee 12,245,723\r\nForeign/Overseas Students Total Fee $73,954"
+                },
+                {
+                    "Course/Program Name": "Master of Science in Accounting and Finance (2 Years) (MAF2Y)",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 421,600"
+                },
+                {
+                    "Course/Program Name": "MS Speech Language & Hearing Science",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 460,000"
+                },
+                {
+                    "Course/Program Name": "MS Diagnostic Ultrasound",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 737,000"
+                },
+                {
+                    "Course/Program Name": "MS Accounting and Finance (1.5 Year)",
+                    "Duration": "1.5",
+                    "Fee Structure": "Total Fee 327,500"
+                },
+                {
+                    "Course/Program Name": "MS Computer Science",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 374,500"
+                },
+                {
+                    "Course/Program Name": "MS Management Science",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 425,000"
+                },
+                {
+                    "Course/Program Name": "MS Nursing",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 1,034,000"
+                },
+                {
+                    "Course/Program Name": "MS Medical Diagnostic Ultrasound",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "Master of Dental Surgery MDS",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "Bachelor of Medical Laboratory Sciences",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MS Computer Engineering",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 363,000"
+                },
+                {
+                    "Course/Program Name": "MBA Master of Business Administration",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee  563,000"
+                },
+                {
+                    "Course/Program Name": "MS Physical Therapy",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 641,000"
+                },
+                {
+                    "Course/Program Name": "MSc Zoology",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MSc Botany",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MSc Sport Science & Physical Education",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "Master of Science in medical Diagnostic Ultrasound",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 314,000"
+                },
+                {
+                    "Course/Program Name": "Doctor of medical Laboratory Science",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MS Supply Chain Management",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 425,000"
+                },
+                {
+                    "Course/Program Name": "MS Management Information System",
+                    "Duration": "2",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MS Total Quality Management",
+                    "Duration": "2",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MS Engineering Management",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 398,000"
+                },
+                {
+                    "Course/Program Name": "MS Clinical Psychology",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 720,000"
+                },
+                {
+                    "Course/Program Name": "MSc Education",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MS Project Management",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 425,000"
+                },
+                {
+                    "Course/Program Name": "MS Supply Chain Management",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 425,000"
+                },
+                {
+                    "Course/Program Name": "MSc Management Information System",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MSc Total Quality Management",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MSc Engineering Management",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MS Clinical Psychology",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 720,000"
+                },
+                {
+                    "Course/Program Name": "MS Education",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MS Project Management",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 425,000"
+                },
+                {
+                    "Course/Program Name": "MDS Oral & Maxillofacial Surgey",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MDS Orthodontic",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MDS Operative Dentistry",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MDS Prostohodontics",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MS Software Engineering",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 363,000"
+                },
+                {
+                    "Course/Program Name": "MS Mass Communication",
+                    "Duration": "2",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MSc Chemistry",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MSc Physics",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MSc Environmental Sciences",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "Master of Science in Medical Education",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "Masters in Management",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 425,000"
+                },
+                {
+                    "Course/Program Name": "MS Psychology",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 720,000"
+                },
+                {
+                    "Course/Program Name": "Masters in Project Management",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 425,000"
+                },
+                {
+                    "Course/Program Name": "Masters in Engineering Management",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "Masters in Industrial/Clinical Psychology",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "LLM",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MA English Literature",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MA English Language Teaching & Linguistics",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MSc Mathematics",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "Master in Computer Science (MCS)",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 374,500"
+                },
+                {
+                    "Course/Program Name": "MBA Executive",
+                    "Duration": "",
+                    "Fee Structure": ""
+                },
+                {
+                    "Course/Program Name": "MSc Biotechnology",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MSc Biochemistry and Biotechnology",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MSc Microbiology and Biotechnology",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MSc Molecular Biology & Biotechnology",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MSc Information Technology",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "Master in Sports Science & Physical Education",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "Master in Sports Medicine",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MS Environmental Science",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MSc Accounting Finance",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MS Accounting Finance",
+                    "Duration": "1.5",
+                    "Fee Structure": "Total Fee 421,600"
+                },
+                {
+                    "Course/Program Name": "MCom",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "Master Science in Electrical Engineering Technology",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 344,000"
+                },
+                {
+                    "Course/Program Name": "Master Science in Mechanical Engineering Technology",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 344,000"
+                },
+                {
+                    "Course/Program Name": "Master of Science in Electronics and Electrical System",
+                    "Duration": "",
+                    "Fee Structure": ""
+                },
+                {
+                    "Course/Program Name": "MS Civil Engineering",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 371,000"
+                },
+                {
+                    "Course/Program Name": "MS Mechanical Engineering",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 377,000"
+                },
+                {
+                    "Course/Program Name": "MS Information Technology",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MSc Medical Ultrasound Technology",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MS Medical Imaging Technology",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MSc Economics",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MEd Education",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MA Special Education",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MA Eraly Childhood Education",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MA Leadership Management",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MID Medical Imaging Doctor",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MIT Medical Imaging Technology",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MS Vascular Ultrasound",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MS Obstetrical and Gynecological Ultrasound",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MS General Ultrasound",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MD Radiology",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MS Sports Science",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MS Sports Medicine",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "Master in Public Health",
+                    "Duration": "2",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "Master in International Health",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MBA Management Science",
+                    "Duration": "2",
+                    "Fee Structure": "Total Fee 425,000"
+                },
+                {
+                    "Course/Program Name": "MS Electronics and Electrical System",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MA Education",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                },
+                {
+                    "Course/Program Name": "MA English",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                }
+            ]
+        },
+        "last_updated": "2025-09-05T02:08:22.310822"
+    },
+    "comsats_fees": {
+        "fee_structure": [
+            {
+                "Admission Fee (one time)": "Rs. 22,000",
+                "Registration Fee (per semester)": "Rs. 5,500",
+                "Tuition fee (Per semester)": "Rs. 110,500",
+                "Total BSCS fee for 1st Semester": "Rs. 138,000"
+            },
+            {
+                "Admission Fee (one time)": "Rs. 22,000",
+                "Registration Fee (per semester)": "Rs. 5,500",
+                "Tuition fee (Per semester)": "Rs. 101,500",
+                "Total BBA fee for 1st Semester": "Rs. 129,000"
+            },
+            {
+                "Course/Program Name": "Bachelor of Architecture",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 157,000"
+            },
+            {
+                "Course/Program Name": "Bachelor of Design",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 157,000"
+            },
+            {
+                "Course/Program Name": "Bachelor of Science in Computer Science",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 138,000"
+            },
+            {
+                "Course/Program Name": "Bachelor of Science in Software Engineering",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 138,000"
+            },
+            {
+                "Course/Program Name": "Bachelor of Science in Accounting and Finance",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 129,000"
+            },
+            {
+                "Course/Program Name": "Bachelor of Science in Business Administration",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 129,000"
+            },
+            {
+                "Course/Program Name": "Bachelor of Science in Economics",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 129,000"
+            },
+            {
+                "Course/Program Name": "Bachelor of Science  in psychology",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 129,000"
+            },
+            {
+                "Course/Program Name": "Bachelor of Science  in Electronics",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 129,000"
+            },
+            {
+                "Course/Program Name": "Bachelor of Science  in Physics",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 129,000"
+            },
+            {
+                "Course/Program Name": "Bachelor of Science  in English",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 129,000"
+            },
+            {
+                "Course/Program Name": "Bachelor of Science in Bioinformatics",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 129,000"
+            },
+            {
+                "Course/Program Name": "Bachelor of Science in Electrical (Electronics) Engineering",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 144,000"
+            },
+            {
+                "Course/Program Name": "Bachelor of Science in Mathematics",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 129,000"
+            },
+            {
+                "Course/Program Name": "Bachelor of Science in Fine Art",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 129,000"
+            },
+            {
+                "Course/Program Name": "Bachelor of Science in Biosciences",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 129,000"
+            },
+            {
+                "Course/Program Name": "Bachelor of Science in Computer Engineering",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 144,000"
+            },
+            {
+                "Course/Program Name": "BS Cyber Security",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 138,000"
+            },
+            {
+                "Course/Program Name": "BS Artificial Intelligence",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 138,000"
+            },
+            {
+                "Course/Program Name": "BS Data Science",
+                "Duration": "4 Year",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "BS Chemistry",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 129,000"
+            },
+            {
+                "Course/Program Name": "BS Auditing And Taxation",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 129,000"
+            },
+            {
+                "Course/Program Name": "BS Business Data Analytics",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 129,000"
+            },
+            {
+                "Course/Program Name": "BS Electrical Engineering",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 144,000"
+            },
+            {
+                "Course/Program Name": "BS Interior Design",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 157,000"
+            },
+            {
+                "Course/Program Name": "BS Media & Communication Studies",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 129,000"
+            },
+            {
+                "Course/Program Name": "BS Remote Sensing & GIS",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 129,000"
+            },
+            {
+                "Course/Program Name": "BS Psychology",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "MS Chemistry",
+                "Duration": "2",
+                "Fee Structure": "Total 1st Semester Fee 61,750/Rs"
+            },
+            {
+                "Course/Program Name": "MS Economics",
+                "Duration": "2",
+                "Fee Structure": "Total 1st Semester Fee 61,750/Rs"
+            },
+            {
+                "Course/Program Name": "MS Biosceinces",
+                "Duration": "2",
+                "Fee Structure": "Total 1st Semester Fee 61,750/Rs"
+            },
+            {
+                "Course/Program Name": "MS Mathematics",
+                "Duration": "2",
+                "Fee Structure": "Total 1st Semester Fee 61,750/Rs"
+            },
+            {
+                "Course/Program Name": "MS Health Informatics",
+                "Duration": "2",
+                "Fee Structure": "Total 1st Semester Fee 61,750/Rs"
+            },
+            {
+                "Course/Program Name": "MS Electrical Engineering",
+                "Duration": "2",
+                "Fee Structure": "Total 1st Semester Fee 61,750"
+            },
+            {
+                "Course/Program Name": "MS Computer Engineering",
+                "Duration": "2",
+                "Fee Structure": "Total 1st Semester Fee 61,750/Rs"
+            },
+            {
+                "Course/Program Name": "MS English Linguistic & Literature",
+                "Duration": "2",
+                "Fee Structure": "Total 1st Semester Fee 61,750/Rs"
+            },
+            {
+                "Course/Program Name": "MS Biochemistry & Molecular Biology",
+                "Duration": "2",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "M.Sc Bio Sciences",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Master of Science in Computer Science",
+                "Duration": "2",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Master of Science in Information Security",
+                "Duration": "2",
+                "Fee Structure": ""
+            },
+            {
+                "Course/Program Name": "Master of Science  Software Engineering",
+                "Duration": "2",
+                "Fee Structure": ""
+            },
+            {
+                "Course/Program Name": "MS Management Sciences",
+                "Duration": "2",
+                "Fee Structure": ""
+            },
+            {
+                "Course/Program Name": "Master of Science  in Energy Management (MSEM)",
+                "Duration": "2",
+                "Fee Structure": "Total 1st Semester Fee 61,750/Rs"
+            },
+            {
+                "Course/Program Name": "Master of Science Project Management",
+                "Duration": "2",
+                "Fee Structure": "Total 1st Semester Fee 61,750/Rs"
+            },
+            {
+                "Course/Program Name": "MS in International Relations",
+                "Duration": "2",
+                "Fee Structure": "Total 1st Semester Fee 61,750/Rs"
+            },
+            {
+                "Course/Program Name": "Master of Science Linguistics & Literature",
+                "Duration": "2",
+                "Fee Structure": "Total 1st Semester Fee 61,750/Rs"
+            },
+            {
+                "Course/Program Name": "Master of Science in Physics",
+                "Duration": "2",
+                "Fee Structure": "Total 1st Semester Fee 61,750/Rs"
+            },
+            {
+                "Course/Program Name": "Master of Science in Bioinformatics",
+                "Duration": "2",
+                "Fee Structure": "Total 1st Semester Fee 88,500/Rs"
+            },
+            {
+                "Course/Program Name": "Master of Science in Bioinformatics",
+                "Duration": "2",
+                "Fee Structure": "Total 1st Semester Fee 61,750/Rs"
+            },
+            {
+                "Course/Program Name": "Master of Science  Bio sciences",
+                "Duration": "2",
+                "Fee Structure": "Total 1st Semester Fee 61,750/Rs"
+            },
+            {
+                "Course/Program Name": "Master of Science  Microbiology & Immunology",
+                "Duration": "2",
+                "Fee Structure": "Total 1st Semester Fee 61,750/Rs"
+            },
+            {
+                "Course/Program Name": "Master of Science in Molecular Biology/Biochemistry",
+                "Duration": "2",
+                "Fee Structure": "Total 1st Semester Fee 61,750"
+            },
+            {
+                "Course/Program Name": "Master of Science in Molecular Genetics",
+                "Duration": "2",
+                "Fee Structure": "Total 1st Semester Fee 61,750/Rs"
+            },
+            {
+                "Course/Program Name": "Master of Science in Molecular Virology",
+                "Duration": "2",
+                "Fee Structure": "Total 1st Semester Fee 61,750/Rs"
+            },
+            {
+                "Course/Program Name": "MS (HEALTH INFORMATICS) Program",
+                "Duration": "2",
+                "Fee Structure": "Total 1st Semester Fee 61,750/Rs"
+            },
+            {
+                "Course/Program Name": "Master of Science in Meteorology",
+                "Duration": "2",
+                "Fee Structure": "Total 1st Semester Fee 61,750/Rs"
+            },
+            {
+                "Course/Program Name": "Master of Science in Remote Sensing (RS) & Geographic Information System (GIS)",
+                "Duration": "2",
+                "Fee Structure": "Total 1st Semester Fee 61,750/Rs"
+            },
+            {
+                "Course/Program Name": "PhD Physics",
+                "Duration": "3",
+                "Fee Structure": "Total 1st Semester Fee 67,600/Rs"
+            },
+            {
+                "Course/Program Name": "PhD Meteorology",
+                "Duration": "3/4",
+                "Fee Structure": "Total 1st Semester Fee 67,600/Rs"
+            },
+            {
+                "Course/Program Name": "PhD Biosciences",
+                "Duration": "3/4",
+                "Fee Structure": "Total 1st Semester Fee 67,600/Rs"
+            },
+            {
+                "Course/Program Name": "PhD Mathematics",
+                "Duration": "3/4",
+                "Fee Structure": "Total 1st Semester Fee 67,600/Rs"
+            },
+            {
+                "Course/Program Name": "PhD Computer Science",
+                "Duration": "3/4",
+                "Fee Structure": "Total 1st Semester Fee 67,600/Rs"
+            },
+            {
+                "Course/Program Name": "PhD Molecular Genetics",
+                "Duration": "3/4",
+                "Fee Structure": "Total 1st Semester Fee 67,600/Rs"
+            },
+            {
+                "Course/Program Name": "PhD Management Sciences",
+                "Duration": "3/4",
+                "Fee Structure": "Total 1st Semester Fee 67,600/Rs"
+            },
+            {
+                "Course/Program Name": "PhD Electrical Engineering",
+                "Duration": "3",
+                "Fee Structure": "Total 1st Semester Fee 67,600/Rs"
+            },
+            {
+                "Course/Program Name": "PhD Computer Engineering",
+                "Duration": "3",
+                "Fee Structure": "Total 1st Semester Fee 67,600Rs"
+            },
+            {
+                "Course/Program Name": "PhD Microbiology & Immunology",
+                "Duration": "3",
+                "Fee Structure": "]Total 1st Semester Fee 67,600/Rs"
+            },
+            {
+                "Course/Program Name": "PhD Biochemistry & Molecular Biology",
+                "Duration": "3",
+                "Fee Structure": "Total 1st Semester Fee 67,600/Rs"
+            },
+            {
+                "Course/Program Name": "PhD Chemistry",
+                "Duration": "3",
+                "Fee Structure": "Total 1st Semester Fee 67,600/Rs"
+            }
+        ],
+        "last_updated": "2025-09-05T02:08:33.131562"
+    },
+    "bahria_fees": {
+        "fee_structure": [
+            {
+                "Course/Program Name": "BBA Bachelor of Business Administration",
+                "Duration": "4 year",
+                "Fee Structure": "Total Fee 140,800/-"
+            },
+            {
+                "Course/Program Name": "BCE Computer Engineering",
+                "Duration": "4",
+                "Fee Structure": "Total 132,500"
+            },
+            {
+                "Course/Program Name": "BS Geophysics",
+                "Duration": "4",
+                "Fee Structure": "Total 97,760"
+            },
+            {
+                "Course/Program Name": "BS Software Engineering",
+                "Duration": "4 year",
+                "Fee Structure": "Total Fee 135,400/-"
+            },
+            {
+                "Course/Program Name": "BS Media Studies",
+                "Duration": "4",
+                "Fee Structure": "Total 103,200"
+            },
+            {
+                "Course/Program Name": "BS Psychology",
+                "Duration": "4 year",
+                "Fee Structure": "Total 103,200"
+            },
+            {
+                "Course/Program Name": "BS Computer Science (BSCS)",
+                "Duration": "4 year",
+                "Fee Structure": "Total Fee 135,400/-"
+            },
+            {
+                "Course/Program Name": "BS Information Technology",
+                "Duration": "4 year",
+                "Fee Structure": "Total Fee 115,600/-"
+            },
+            {
+                "Course/Program Name": "BS Accounting & Finance",
+                "Duration": "4",
+                "Fee Structure": "Total 130,500"
+            },
+            {
+                "Course/Program Name": "BS Geology",
+                "Duration": "4",
+                "Fee Structure": "Total 97,760"
+            },
+            {
+                "Course/Program Name": "Bachelor of Electrical Engineering",
+                "Duration": "4",
+                "Fee Structure": "Total 126,240"
+            },
+            {
+                "Course/Program Name": "DPT Doctor of Physical Therapy",
+                "Duration": "5",
+                "Fee Structure": "Total 195,160"
+            },
+            {
+                "Course/Program Name": "BBA Supply Chain Management",
+                "Duration": "4",
+                "Fee Structure": "Total 124,000"
+            },
+            {
+                "Course/Program Name": "BS Environmental Sciences",
+                "Duration": "4 year",
+                "Fee Structure": "Total 97,760"
+            },
+            {
+                "Course/Program Name": "BS Medical Technology",
+                "Duration": "4",
+                "Fee Structure": "Total 113,600"
+            },
+            {
+                "Course/Program Name": "Bachelor in Social Science",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "BS English",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "BS (MARITIME BUSINESS & MANAGEMENT)",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "BS Supply Chain Management",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "BS Artificial Intelligence",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "BS Computer Engineering",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "BS Economics and Finance",
+                "Duration": "4",
+                "Fee Structure": "Total 130,500"
+            },
+            {
+                "Course/Program Name": "LLB",
+                "Duration": "5",
+                "Fee Structure": "Total 121,000"
+            },
+            {
+                "Course/Program Name": "BS Geo Sciences",
+                "Duration": "4",
+                "Fee Structure": "Total 97,760"
+            },
+            {
+                "Course/Program Name": "BS Public Health",
+                "Duration": "4",
+                "Fee Structure": "1st Semester Total Fee 165,000"
+            },
+            {
+                "Course/Program Name": "BS Medical Laboratory Technology",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "BS Nursing",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "BSIT (Information Technology)",
+                "Duration": "4 Years",
+                "Fee Structure": "Rs 80,000"
+            },
+            {
+                "Course/Program Name": "BS (Remote Sensing & GIS)",
+                "Duration": "4 Years",
+                "Fee Structure": "Rs 80,000"
+            },
+            {
+                "Course/Program Name": "BS (Social Sciences)",
+                "Duration": "4 Years",
+                "Fee Structure": "Rs 80,000"
+            },
+            {
+                "Course/Program Name": "BS (Robotics & Intelligent Systems)",
+                "Duration": "4 Years",
+                "Fee Structure": "Rs 80,000"
+            },
+            {
+                "Course/Program Name": "BS (Biotechnology) 4 Years",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "EMBA Logistics and port management",
+                "Duration": "2",
+                "Fee Structure": "Total 99,660"
+            },
+            {
+                "Course/Program Name": "MBA",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "MS Computer Science",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "MS Electrical Engineering",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "MS Islamic Studies",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "MS (Maritime Ports & Shipping MGT)",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "MS Media Studies",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "MBA Logistic and Maritime Management",
+                "Duration": "2.5/3",
+                "Fee Structure": "Total 99,660"
+            },
+            {
+                "Course/Program Name": "MS Finance",
+                "Duration": "1.5",
+                "Fee Structure": "Total 120,780"
+            },
+            {
+                "Course/Program Name": "MS Environment Science",
+                "Duration": "2",
+                "Fee Structure": "Total 94,640"
+            },
+            {
+                "Course/Program Name": "MS Geology",
+                "Duration": "2",
+                "Fee Structure": "Total 94,640"
+            },
+            {
+                "Course/Program Name": "MS Clinical Psychology",
+                "Duration": "2",
+                "Fee Structure": "Total 112,400"
+            },
+            {
+                "Course/Program Name": "MBA Master of Business Administration",
+                "Duration": "2",
+                "Fee Structure": "Total 129,475"
+            },
+            {
+                "Course/Program Name": "MS  Supply Chain Management",
+                "Duration": "1.5",
+                "Fee Structure": "Total 120,780"
+            },
+            {
+                "Course/Program Name": "MBA Islamic Finance",
+                "Duration": "1.5",
+                "Fee Structure": "Total 120,780"
+            },
+            {
+                "Course/Program Name": "MS Media Science",
+                "Duration": "2",
+                "Fee Structure": "Total 94,220"
+            },
+            {
+                "Course/Program Name": "MS Software Engineering",
+                "Duration": "2",
+                "Fee Structure": "Total 92,585"
+            },
+            {
+                "Course/Program Name": "MS International Relations",
+                "Duration": "2",
+                "Fee Structure": "Total 94,220"
+            },
+            {
+                "Course/Program Name": "MS Telecommunication and Networking",
+                "Duration": "2",
+                "Fee Structure": "Total 92,585"
+            },
+            {
+                "Course/Program Name": "LLM",
+                "Duration": "2 year",
+                "Fee Structure": "Total 104,780"
+            },
+            {
+                "Course/Program Name": "MS Computer Engineering",
+                "Duration": "2 year",
+                "Fee Structure": "Total 92,585"
+            },
+            {
+                "Course/Program Name": "MBA Finance",
+                "Duration": "1.5",
+                "Fee Structure": "Total 120,780"
+            },
+            {
+                "Course/Program Name": "MBA Marketing",
+                "Duration": "1.5",
+                "Fee Structure": "Total 120,780"
+            },
+            {
+                "Course/Program Name": "MBA Logistics & Maritime",
+                "Duration": "2.5/3",
+                "Fee Structure": "Total 99,660"
+            },
+            {
+                "Course/Program Name": "MBA Pharmaceutical",
+                "Duration": "2.5/3",
+                "Fee Structure": "Total 102,780"
+            },
+            {
+                "Course/Program Name": "MBA Health Management",
+                "Duration": "2.5 years",
+                "Fee Structure": "Total 102,780"
+            },
+            {
+                "Course/Program Name": "MS Geophysics",
+                "Duration": "2 year",
+                "Fee Structure": "Total 94,640"
+            },
+            {
+                "Course/Program Name": "MS Electronics Engineering",
+                "Duration": "2 year",
+                "Fee Structure": "Total 92,585"
+            },
+            {
+                "Course/Program Name": "MS Geophysics Environmental Sciences",
+                "Duration": "2 year",
+                "Fee Structure": "Total 94,640"
+            },
+            {
+                "Course/Program Name": "MS Project Management",
+                "Duration": "1/5 year",
+                "Fee Structure": "Total 111,000"
+            },
+            {
+                "Course/Program Name": "MS (Clinical Psychology)",
+                "Duration": "2",
+                "Fee Structure": "Total 112,400"
+            },
+            {
+                "Course/Program Name": "MPhil Management Science",
+                "Duration": "2",
+                "Fee Structure": "Total 89,975"
+            },
+            {
+                "Course/Program Name": "MPhil Social \u2013 Cultural Anthropology",
+                "Duration": "2 year",
+                "Fee Structure": "Total 110,780"
+            },
+            {
+                "Course/Program Name": "MPhil Anatomy",
+                "Duration": "2",
+                "Fee Structure": "Total 241,015"
+            },
+            {
+                "Course/Program Name": "MPhil Pathology and Pharmacology",
+                "Duration": "2",
+                "Fee Structure": "Total 241,015"
+            },
+            {
+                "Course/Program Name": "MPhil Organization Psychology",
+                "Duration": "2",
+                "Fee Structure": "Total 112,400"
+            },
+            {
+                "Course/Program Name": "MPhil Education Psychology",
+                "Duration": "2",
+                "Fee Structure": "Total 112,400"
+            },
+            {
+                "Course/Program Name": "M.Phil Pathology (Microbiology & Histopathology)",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "M.Phil Pharmacology",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "M.Phil Physiology",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "M.Phil Biochemistry",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "PHD (Health Sciences) 3 Years",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "PhD Geo Physics",
+                "Duration": "3 year",
+                "Fee Structure": "Total 92,585"
+            },
+            {
+                "Course/Program Name": "PhD Professional Psychology",
+                "Duration": "3",
+                "Fee Structure": "Total 128,975"
+            },
+            {
+                "Course/Program Name": "PhD Software Engineering",
+                "Duration": "3 year",
+                "Fee Structure": "Total 92,585"
+            },
+            {
+                "Course/Program Name": "PhD Computer Engineering",
+                "Duration": "3 year",
+                "Fee Structure": "Total 92,585"
+            },
+            {
+                "Course/Program Name": "PhD Geology",
+                "Duration": "3 year",
+                "Fee Structure": "Total 92,585"
+            },
+            {
+                "Course/Program Name": "PhD Clinical Psychology, Educational Psychology, Organizational Psychology",
+                "Duration": "3 year",
+                "Fee Structure": "Total 128,975"
+            },
+            {
+                "Course/Program Name": "PhD Management Science",
+                "Duration": "3",
+                "Fee Structure": "Total 92,585"
+            },
+            {
+                "Course/Program Name": "PhD Computer Sciences",
+                "Duration": "3 year",
+                "Fee Structure": "Total 92,585"
+            },
+            {
+                "Course/Program Name": "PhD Environmental Science",
+                "Duration": "3 year",
+                "Fee Structure": "Total 92,585"
+            },
+            {
+                "Course/Program Name": "PMD Clinical Education Organizational",
+                "Duration": "",
+                "Fee Structure": "Total 20,500"
+            },
+            {
+                "Course/Program Name": "Project Management Professional (PMP)",
+                "Duration": "",
+                "Fee Structure": "Total 20,500"
+            },
+            {
+                "Course/Program Name": "Certified Associate Project Management (CAPM)",
+                "Duration": "",
+                "Fee Structure": "Total 20,500"
+            },
+            {
+                "Course/Program Name": "Agile Certified Professional & Learnt Management (ACP-LMC)",
+                "Duration": "",
+                "Fee Structure": "Total 20,500"
+            },
+            {
+                "Course/Program Name": "Post Graduate Diploma in Logistics & Port Management",
+                "Duration": "",
+                "Fee Structure": "Total 20,500"
+            },
+            {
+                "Course/Program Name": "Certificate in Port Development, Operation Management",
+                "Duration": "",
+                "Fee Structure": "Total 20,500"
+            },
+            {
+                "Course/Program Name": "Certificate in Shipping Operation & Management",
+                "Duration": "",
+                "Fee Structure": "Total 20,500"
+            },
+            {
+                "Course/Program Name": "Certificate in Fishery Management & Operations",
+                "Duration": "",
+                "Fee Structure": "Total 20,500"
+            },
+            {
+                "Course/Program Name": "Certificate in Port Terminal Management",
+                "Duration": "",
+                "Fee Structure": "Total 20,500"
+            },
+            {
+                "Course/Program Name": "Certificate in Ship Brokering & Chartering",
+                "Duration": "",
+                "Fee Structure": "Total 20,500"
+            },
+            {
+                "Course/Program Name": "Certificate in Coastal Zone Management",
+                "Duration": "",
+                "Fee Structure": "Total 20,500"
+            },
+            {
+                "Course/Program Name": "Certificate in Customs Clearing & Freight Forwarding",
+                "Duration": "",
+                "Fee Structure": "Total 20,500"
+            },
+            {
+                "Course/Program Name": "Certificate in Logistics Supply Chain Systems & Method",
+                "Duration": "",
+                "Fee Structure": "Total 20,500"
+            },
+            {
+                "Course/Program Name": "Certificate in Enterprise Resource Planning Implementation",
+                "Duration": "",
+                "Fee Structure": "Total 20,500"
+            },
+            {
+                "Course/Program Name": "Certificate in Real Industrializations & Labor Laws",
+                "Duration": "",
+                "Fee Structure": "Total 20,500"
+            },
+            {
+                "Course/Program Name": "Certificate in Advance Automation and Control Using PLC",
+                "Duration": "",
+                "Fee Structure": "Total 20,500"
+            },
+            {
+                "Course/Program Name": "Certificate in Introduction to Android Application Development",
+                "Duration": "",
+                "Fee Structure": "Total 20,500"
+            },
+            {
+                "Course/Program Name": "Certificate in Programming Made Easy",
+                "Duration": "",
+                "Fee Structure": "Total 20,500"
+            },
+            {
+                "Course/Program Name": "Certificate in The Semantic Web",
+                "Duration": "",
+                "Fee Structure": "Total 20,500"
+            },
+            {
+                "Course/Program Name": "Certificate in Gis Solutions for Engineers & Scientific",
+                "Duration": "",
+                "Fee Structure": "Total 20,500"
+            },
+            {
+                "Course/Program Name": "Certificate in Environmental Impact Assessment",
+                "Duration": "",
+                "Fee Structure": "Total 20,500"
+            },
+            {
+                "Course/Program Name": "Certificate in English Proficiency",
+                "Duration": "",
+                "Fee Structure": "Total 20,500"
+            },
+            {
+                "Course/Program Name": "Diploma in Law",
+                "Duration": "",
+                "Fee Structure": "Total 20,500"
+            },
+            {
+                "Course/Program Name": "GAT Entry Test Preparation",
+                "Duration": "",
+                "Fee Structure": "Total 20,500"
+            },
+            {
+                "Course/Program Name": "Diploma in Shipping Management",
+                "Duration": "",
+                "Fee Structure": "Total 20,500"
+            },
+            {
+                "Course/Program Name": "Certificate in Maritime",
+                "Duration": "",
+                "Fee Structure": "Total 20,500"
+            },
+            {
+                "Course/Program Name": "DPT (5 Years)",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            }
+        ],
+        "last_updated": "2025-09-05T02:08:45.971983"
+    },
+    "iqra_fees": {
+        "fee_structure": [
+            {
+                "Course/Program Name": "Two Year Diploma (BFD & BTD",
+                "Duration": "2",
+                "Fee Structure": "Total 1st Semester Fee 127,120"
+            },
+            {
+                "Course/Program Name": "One Year Diploma (BFD & BTD)",
+                "Duration": "1 year",
+                "Fee Structure": "Total 1st Semester Fee 127,120"
+            },
+            {
+                "Course/Program Name": "BS (CS) (2.5 years)",
+                "Duration": "2.5 years",
+                "Fee Structure": "Total 1st Semester Fee 127,120"
+            },
+            {
+                "Course/Program Name": "BS (SE) (2.5 years)",
+                "Duration": "2.5 years",
+                "Fee Structure": "Total 1st Semester Fee 127,120"
+            },
+            {
+                "Course/Program Name": "BS Data Science (BSDS)",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 101,020"
+            },
+            {
+                "Course/Program Name": "BS Physics",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 101,020"
+            },
+            {
+                "Course/Program Name": "BS Nursing",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Doctor of Pharmacy",
+                "Duration": "5",
+                "Fee Structure": "Total 1st Semester Fee 223,420"
+            },
+            {
+                "Course/Program Name": "BS International Relation",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 101,020"
+            },
+            {
+                "Course/Program Name": "BS Development Studies",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 91,200"
+            },
+            {
+                "Course/Program Name": "BS Anesthesia Technology",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 84000"
+            },
+            {
+                "Course/Program Name": "BS Economics",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 101,020"
+            },
+            {
+                "Course/Program Name": "BS Computer Science (BSCS)",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 127,120"
+            },
+            {
+                "Course/Program Name": "BS Software Engineering",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 127,120"
+            },
+            {
+                "Course/Program Name": "BS Medical Laboratory Technology",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 88500"
+            },
+            {
+                "Course/Program Name": "BBA Bachelor of Business Administration",
+                "Duration": "2.5",
+                "Fee Structure": "Total 1st Semester Fee 114,720"
+            },
+            {
+                "Course/Program Name": "BS Psychology",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 101,020"
+            },
+            {
+                "Course/Program Name": "Bachelor in Fashion Design",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 127,120"
+            },
+            {
+                "Course/Program Name": "Bachelor in Textile Design",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 127,120"
+            },
+            {
+                "Course/Program Name": "BS Artificial intelligence",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 127,120"
+            },
+            {
+                "Course/Program Name": "BS Human Nutrition & Dietetics",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 88500"
+            },
+            {
+                "Course/Program Name": "BMS",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 127,120"
+            },
+            {
+                "Course/Program Name": "BE Computer Engineering",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 115,500"
+            },
+            {
+                "Course/Program Name": "BS Industrial Relations",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 91,200"
+            },
+            {
+                "Course/Program Name": "BS Radiology Technology",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 84000"
+            },
+            {
+                "Course/Program Name": "Doctor of Physical Therapy DPT",
+                "Duration": "5",
+                "Fee Structure": "Total 1st Semester Fee 129000"
+            },
+            {
+                "Course/Program Name": "BS English",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 101,020"
+            },
+            {
+                "Course/Program Name": "BS (A&F) 4 years",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 127,120"
+            },
+            {
+                "Course/Program Name": "BBA-H",
+                "Duration": "4",
+                "Fee Structure": "Total 1st Semester Fee 127,120"
+            },
+            {
+                "Course/Program Name": "MS (MGT)",
+                "Duration": "2",
+                "Fee Structure": "Total 1st Semester Fee 71,320"
+            },
+            {
+                "Course/Program Name": "MBA Master of Business Administration",
+                "Duration": "2",
+                "Fee Structure": "Total 1st Semester Fee 108,520"
+            },
+            {
+                "Course/Program Name": "MBA Executive",
+                "Duration": "2",
+                "Fee Structure": "Total 1st Semester Fee 108,520"
+            },
+            {
+                "Course/Program Name": "MS Computer Science (MSCS)",
+                "Duration": "2",
+                "Fee Structure": "Total 1st Semester Fee 71,320"
+            },
+            {
+                "Course/Program Name": "MS Software Engineering",
+                "Duration": "2",
+                "Fee Structure": "Total 1st Semester Fee 71,320"
+            },
+            {
+                "Course/Program Name": "MBA",
+                "Duration": "1.5 year",
+                "Fee Structure": "Total 1st Semester Fee 89,920"
+            },
+            {
+                "Course/Program Name": "MPhil International Relation",
+                "Duration": "2",
+                "Fee Structure": "Total 1st Semester Fee 71,320"
+            },
+            {
+                "Course/Program Name": "MPhil International Development Studies",
+                "Duration": "2",
+                "Fee Structure": "Total 1st Semester Fee 71,320"
+            },
+            {
+                "Course/Program Name": "MPhil Education",
+                "Duration": "2",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "MPhil English",
+                "Duration": "2",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "MPhil Computer Science",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "MPhil Management Sciences",
+                "Duration": "2",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "MPhil Business Administration",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "PhD Business Administration",
+                "Duration": "3",
+                "Fee Structure": "Total 1st Semester Fee 71,320"
+            },
+            {
+                "Course/Program Name": "PhD Education",
+                "Duration": "3",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "PhD English",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "PhD Computer Science",
+                "Duration": "3",
+                "Fee Structure": "Total 1st Semester Fee 71,320"
+            },
+            {
+                "Course/Program Name": "PhD Telecommunication & Networks",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "PhD Management Science",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "PhD in International Development Studies",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            }
+        ],
+        "last_updated": "2025-09-05T02:09:40.057178"
+    },
+    "nust_fees": {
+        "fee_structure": [
+            {
+                "Engineering/ Computing/ Natural Sciences/Applied Sciences": "Admission Processing fee\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a035000",
+                "Architecture, Social Science, Business Studies": "35000"
+            },
+            {
+                "Engineering/ Computing/ Natural Sciences/Applied Sciences": "Security Deposit (Refundable)\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 10000",
+                "Architecture, Social Science, Business Studies": "10000"
+            },
+            {
+                "Engineering/ Computing/ Natural Sciences/Applied Sciences": "Tuition Fee (Per Semester)\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0149000",
+                "Architecture, Social Science, Business Studies": "200300"
+            },
+            {
+                "Engineering/ Computing/ Natural Sciences/Applied Sciences": "Miscellaneous Charges (Per Semester)\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 2700",
+                "Architecture, Social Science, Business Studies": "2700"
+            },
+            {
+                "Course/Program Name": "Certificate in Health Professions Education (CHPE)",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "BS Human Nutrition and Dietetics (HND)",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "BS - Mechanical Engineering",
+                "Duration": "4",
+                "Fee Structure": "124,200"
+            },
+            {
+                "Course/Program Name": "BS - Electrical Engineering",
+                "Duration": "4",
+                "Fee Structure": "124,200"
+            },
+            {
+                "Course/Program Name": "BS - Civil Engineering",
+                "Duration": "4",
+                "Fee Structure": "124,200"
+            },
+            {
+                "Course/Program Name": "BS - Software Engineering",
+                "Duration": "4",
+                "Fee Structure": "124,200"
+            },
+            {
+                "Course/Program Name": "BS - Chemical Engineering",
+                "Duration": "4",
+                "Fee Structure": "124,200"
+            },
+            {
+                "Course/Program Name": "BS - Environmental Engineering",
+                "Duration": "4",
+                "Fee Structure": "124,200"
+            },
+            {
+                "Course/Program Name": "BS - Geoinformatics Engineering",
+                "Duration": "4",
+                "Fee Structure": "124,200"
+            },
+            {
+                "Course/Program Name": "BS - Computer Science",
+                "Duration": "4",
+                "Fee Structure": "124,200"
+            },
+            {
+                "Course/Program Name": "B - Architecture",
+                "Duration": "4",
+                "Fee Structure": "148,400"
+            },
+            {
+                "Course/Program Name": "B - Industrial Design",
+                "Duration": "4",
+                "Fee Structure": "148,400"
+            },
+            {
+                "Course/Program Name": "BS - Physics",
+                "Duration": "4",
+                "Fee Structure": "124,200"
+            },
+            {
+                "Course/Program Name": "BS - Mathematics",
+                "Duration": "4",
+                "Fee Structure": "124,200"
+            },
+            {
+                "Course/Program Name": "BBA - Bachelor of Business Administration",
+                "Duration": "4",
+                "Fee Structure": "148,400"
+            },
+            {
+                "Course/Program Name": "BS - Accounting and Finance",
+                "Duration": "4",
+                "Fee Structure": "148,400"
+            },
+            {
+                "Course/Program Name": "BS - Economics",
+                "Duration": "4",
+                "Fee Structure": "148,400"
+            },
+            {
+                "Course/Program Name": "BS - Mass Communication",
+                "Duration": "4",
+                "Fee Structure": "148,400"
+            },
+            {
+                "Course/Program Name": "BS - Public? Administration?",
+                "Duration": "4",
+                "Fee Structure": "148,400"
+            },
+            {
+                "Course/Program Name": "BS - Metallurgy and Materials Engineering",
+                "Duration": "4",
+                "Fee Structure": "124,200"
+            },
+            {
+                "Course/Program Name": "BS - Tourism and Hospitality Management",
+                "Duration": "4",
+                "Fee Structure": "148,400"
+            },
+            {
+                "Course/Program Name": "BS - Psychology",
+                "Duration": "4",
+                "Fee Structure": "148,400"
+            },
+            {
+                "Course/Program Name": "LLB",
+                "Duration": "5",
+                "Fee Structure": "148,400"
+            },
+            {
+                "Course/Program Name": "BS - Mechatronics Engineering",
+                "Duration": "4",
+                "Fee Structure": "124,200"
+            },
+            {
+                "Course/Program Name": "BS - Avionics Engineering",
+                "Duration": "4",
+                "Fee Structure": "124,200"
+            },
+            {
+                "Course/Program Name": "BS - Aerospace Engineering",
+                "Duration": "4",
+                "Fee Structure": "124,200"
+            },
+            {
+                "Course/Program Name": "BS - Naval Architecture Engineering",
+                "Duration": "4",
+                "Fee Structure": "124,200"
+            },
+            {
+                "Course/Program Name": "BS - Computer Engineering",
+                "Duration": "4",
+                "Fee Structure": "124,200"
+            },
+            {
+                "Course/Program Name": "BE - Information Security",
+                "Duration": "4",
+                "Fee Structure": "124,200"
+            },
+            {
+                "Course/Program Name": "BS - Biotechnology",
+                "Duration": "4",
+                "Fee Structure": "124,200"
+            },
+            {
+                "Course/Program Name": "BS - Chemistry",
+                "Duration": "4",
+                "Fee Structure": "124,200"
+            },
+            {
+                "Course/Program Name": "MS - Aerospace Engineering",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Aerospace Engineering",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Artificial Intelligence",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Avionics Engineering",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Biomedical Engineering",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Bioinformatics",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Cyber Security",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Data Science",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Energy Systems Engineering",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Thermal Energy Engineering",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Electrical Engineering (Power)\u00b7",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Manufacturing Engineering and Management",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Design & Manufacturing Engineering",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Naval Architecture",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Robotics & Intelligent Machine Engineering",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Mining Engineering",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Mining Engineering",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS -  Chemistry",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Physics",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Industrial Biotechnology",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Plant Biotechnology",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Healthcare Biotechnology",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Biomedical Science",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Agribusiness Management",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Molecular Medicine",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MBA - Innovation and Entrepreneurship",
+                "Duration": "2",
+                "Fee Structure": "136,800"
+            },
+            {
+                "Course/Program Name": "MS - ?Logistic & Supply Chain Management",
+                "Duration": "2",
+                "Fee Structure": "136,800"
+            },
+            {
+                "Course/Program Name": "MS - ?Clinical Psychology",
+                "Duration": "2",
+                "Fee Structure": "136,800"
+            },
+            {
+                "Course/Program Name": "MS - Economics",
+                "Duration": "2",
+                "Fee Structure": "136,800"
+            },
+            {
+                "Course/Program Name": "MS - Mass Communication",
+                "Duration": "2",
+                "Fee Structure": "136,800"
+            },
+            {
+                "Course/Program Name": "MS - Development Studies",
+                "Duration": "2",
+                "Fee Structure": "136,800"
+            },
+            {
+                "Course/Program Name": "MS - Career Counselling & Education",
+                "Duration": "2",
+                "Fee Structure": "136,800"
+            },
+            {
+                "Course/Program Name": "MS - Peace & Conflict Studies",
+                "Duration": "2",
+                "Fee Structure": "136,800"
+            },
+            {
+                "Course/Program Name": "MS - Disaster Management",
+                "Duration": "2",
+                "Fee Structure": "136,800"
+            },
+            {
+                "Course/Program Name": "MS - Governance & Public Policy",
+                "Duration": "2",
+                "Fee Structure": "136,800"
+            },
+            {
+                "Course/Program Name": "MS - Strategic Studies",
+                "Duration": "2",
+                "Fee Structure": "136,800"
+            },
+            {
+                "Course/Program Name": "MS - Architectural Design",
+                "Duration": "2",
+                "Fee Structure": "136,800"
+            },
+            {
+                "Course/Program Name": "MS Marketing",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Master In Architectural Design",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "MBA - Master of Business Administration",
+                "Duration": "2",
+                "Fee Structure": "136,800"
+            },
+            {
+                "Course/Program Name": "MS - Engineering Management",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Information Technology",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Mathematics",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS Climate Change",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "MS Sustainable Development",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "MS - Structural Engineering",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Transportation Engineering",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Geotechnical",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Water Resources Engineering",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Construction Engineering and Management",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Remote Sensing and GIS",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Environmental Engineering",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Environmental Sciences",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Urban and Regional Planning",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Computer Science",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Information Security",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Electrical Engineering (Evening)",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Innovative Technologies in Learning",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MBA - Executive",
+                "Duration": "2",
+                "Fee Structure": "136,800"
+            },
+            {
+                "Course/Program Name": "MS - Human Resource Management",
+                "Duration": "2",
+                "Fee Structure": "136,800"
+            },
+            {
+                "Course/Program Name": "MS - Mechanical Engineering",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Computer Engineering",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Mechatronics Engineering",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Software Engineering",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Computational Science & Engineering (Modelling & Simulation)",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Systems Engineering",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Materials and Surface Engineering",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Chemical Engineering",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Nanoscience & Engineering",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Process Systems Engineering",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "MS - Statistics",
+                "Duration": "2",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD Climate Change",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Ph.D Sustainable Development",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "PhD - Manufacturing & Engineering Management",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Economics",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Thermal Energy Engineering",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Energetic Material Engineering",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Avionics Engineering",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - ?Electrical  Engineering (Power)",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - ?Mining Engineering",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Software Engineering",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Computer Science",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Artificial Intelligence",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Business Administration",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Peace & Conflict Studies",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Chemical Engineering",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Psychology",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Applied Biosciences",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Mathematics",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Physics",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Chemistry",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Electrical  Engineering",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Computer Engineering",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Mechanical Engineering",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Design & Manufacturing Engineering",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD Robotics and Intelligent Machine Engineering",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Environmental Engineering",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Environmental Sciences",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Mechatronics Engineering",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Materials and Surface Engineering",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Transportation Engineering",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Construction Engineering & Management",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Structural Engineering",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Biomedical Engineering",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Biomedical Sciences",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Geotechnical Engineering",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Computational Sciences & Engineering",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Engineering Management",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Water Resources Engineering and Management",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Remote Sensing & GIS",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Urban & Regional Planning",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Nanosciences & Engineering",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Information Security",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Information Technology",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Aerospace Engineering",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "PhD - Energy Systems Engineering",
+                "Duration": "3",
+                "Fee Structure": "88,500"
+            },
+            {
+                "Course/Program Name": "Armed Corces Nursing Services",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "L.E.A.D Learn Engage Accelerate and Disrupt",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Advanced Excel",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Certified Solar PV Design Course",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Financial Analysis and Reporting",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "PPRA rules and Contract Management",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            },
+            {
+                "Course/Program Name": "Facilitation Skills",
+                "Duration": "",
+                "Fee Structure": "No fee information available"
+            }
+        ],
+        "last_updated": "2025-09-05T02:09:51.485759"
+    }
+}
