@@ -136,7 +136,7 @@ def get_admission_chance(user_agg, predicted_cutoff):
 
 def safe_get(url):
     try:
-        response = requests.get(url, timeout=10)
+        response = requests.get(url, timeout=30)
         response.raise_for_status()
         return response, None
     except Exception as e:
