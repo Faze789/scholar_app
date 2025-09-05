@@ -10,9 +10,9 @@ import datetime
 import os
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS for all routes
+CORS(app)  
 
-# ========== HELPER FUNCTIONS (Admission Prediction) ==========
+
 def calculate_aggregate(matric_marks, fsc_marks, test_marks, totals, weights):
     """Calculate weighted aggregate score"""
     matric_pct = (matric_marks / totals["matric"]) * 100 if totals.get("matric") else 0
@@ -40,9 +40,9 @@ def predict_cutoff(X, y, target_year):
     if len(X) == 0:
         return None
         
-    if X.mean() > 1900:  # If using actual years
+    if X.mean() > 1900:  
         pred_input = target_year
-    else:  # If using indices
+    else:  
         pred_input = len(X)
     
     model = LinearRegression()
@@ -133,7 +133,7 @@ def get_admission_chance(user_agg, predicted_cutoff):
     else:
         return "Low (<30%)"
 
-# ========== HELPER: Safe requests (Fee Scraping) ==========
+
 def safe_get(url):
     try:
         response = requests.get(url, timeout=10)
@@ -142,7 +142,7 @@ def safe_get(url):
     except Exception as e:
         return None, str(e)
 
-# ========== UNIVERSITY CONFIG ==========
+
 UNIVERSITIES = {
     "iqra": {
         "name": "Iqra University",
@@ -256,7 +256,7 @@ UNIVERSITIES = {
     }
 }
 
-# ========== ADMISSION PREDICTION ROUTE ==========
+
 @app.route("/predict", methods=["POST"])
 def predict_admission():
     data = request.get_json()
@@ -482,7 +482,7 @@ def predict_admission():
     print("Final results:", results)
     return jsonify(results)
 
-# ========== FEE SCRAPING ROUTES ==========
+
 def scrape_iiui_fees():
     resp, error = safe_get(UNIVERSITIES["iiui"]["fee_url"])
     if error:
@@ -867,7 +867,6 @@ def scholarships_nust():
         "last_updated": datetime.datetime.now().isoformat()
     })
 
-# ========== ROOT ENDPOINT ==========
 @app.route('/', methods=['GET'])
 def index():
     return jsonify({
