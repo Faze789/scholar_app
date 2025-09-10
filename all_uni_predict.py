@@ -55,7 +55,7 @@ def extract_year(year_str):
     return int(match.group(1)) if match else None
 
 def predict_cutoff(X, y, target_year):
-    """Predict cutoff using linear regression"""
+  
     if len(X) == 0:
         return None
         
@@ -69,7 +69,7 @@ def predict_cutoff(X, y, target_year):
     return float(model.predict(np.array([[pred_input]]))[0])
 
 def predict_with_single_point(y_value, target_year, current_year, trend="stable"):
-    """Predict cutoff when we only have one data point"""
+  
     if trend == "increasing":
         years_diff = target_year - current_year
         return y_value + (years_diff * 0.5)
