@@ -295,11 +295,32 @@ def predict_admission():
         sat = float(data.get("sat_marks")) if "sat_marks" in data else None
         program = data["program"]
         is_o_a_level = data.get("is_o_a_level", False)
+        bachelors_cgpa = data.get("bachelors_cgpa")  # Check if CGPA is provided
+        masters_cgpa = data.get("masters_cgpa")  # Check if Master's CGPA is provided
     except (ValueError, TypeError):
         return jsonify({"error": "Invalid input values"}), 400
 
+    # Check if this is a graduate application (has CGPA)
+    is_graduate_application = bachelors_cgpa is not None or masters_cgpa is not None
+    
     target_year = 2026
     results = {"universities": []}
+    
+    # Include user data in response for graduate applications
+    if is_graduate_application:
+        results["user_data"] = {
+            "matric_marks": matric,
+            "fsc_marks": fsc,
+            "nts_marks": nts,
+            "net_marks": net,
+            "ned_test_marks": ned_test,
+            "ecat_marks": ecat,
+            "sat_marks": sat,
+            "program": program,
+            "is_o_a_level": is_o_a_level,
+            "bachelors_cgpa": bachelors_cgpa,
+            "masters_cgpa": masters_cgpa
+        }
 
     for uni_id, uni in UNIVERSITIES.items():
         uni_config = uni.copy()
@@ -309,6 +330,28 @@ def predict_admission():
             if "matric" in uni_config["totals"]:
                 uni_config["totals"]["matric"] = 900
         
+        # For graduate applications, skip test requirement checks and aggregate calculations
+        if is_graduate_application:
+            # Just return the university data without predictions
+            uni_result = {
+                "id": uni_id,
+                "name": uni_config["name"],
+                "user_aggregate": None,
+                "predicted_2026_cutoff": None,
+                "admitted": None,
+                "admission_chance": "Graduate application - no prediction needed",
+                "criteria": {
+                    "weights": uni_config["weights"],
+                    "totals": uni_config["totals"],
+                    "test_used": uni_config["test_used"]
+                },
+                "last_actual_cutoff": None,
+                "last_actual_year": None
+            }
+            results["universities"].append(uni_result)
+            continue
+            
+        # Original logic for undergraduate applications continues below
         if uni_config["test_used"] == "ECAT" and ecat is None:
             uni_result = {
                 "id": uni_id,
