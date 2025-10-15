@@ -1010,7 +1010,7 @@
                 "currency": null
             }
         ],
-        "last_updated": "2025-09-05T02:06:47.129441"
+        "last_updated": "2025-10-14T08:47:50.217188"
     },
     "uet_fees": {
         "fee_structure": [
@@ -1090,7 +1090,7 @@
                 "Partially Subsidized": "Rs. 226,119.00"
             }
         ],
-        "last_updated": "2025-09-05T02:07:26.669140"
+        "last_updated": "2025-10-14T08:48:01.122185"
     },
     "lums_fees": {
         "fee_structure": {
@@ -1255,7 +1255,7 @@
                 }
             ]
         },
-        "last_updated": "2025-09-05T02:07:49.281989"
+        "last_updated": "2025-10-14T08:48:06.691651"
     },
     "ned_fees": {
         "fee_structure": [
@@ -2014,7 +2014,7 @@
                 "Fee Structure": "No fee information available"
             }
         ],
-        "last_updated": "2025-09-05T02:08:01.053580"
+        "last_updated": "2025-10-14T08:48:24.519105"
     },
     "uol_fees": {
         "fee_structure": {
@@ -3109,7 +3109,7 @@
                 "Fee Structure": "Total 1st Semester Fee 67,600/Rs"
             }
         ],
-        "last_updated": "2025-09-05T02:08:33.131562"
+        "last_updated": "2025-10-14T08:50:31.636159"
     },
     "bahria_fees": {
         "fee_structure": [
@@ -4705,6 +4705,667 @@
                 "Fee Structure": "No fee information available"
             }
         ],
-        "last_updated": "2025-09-05T02:09:51.485759"
+        "last_updated": "2025-10-14T08:52:45.017237"
+    },
+    "air_fees": {
+        "fee_structure": {
+            "BSCS": [],
+            "BBA": [
+                {
+                    "Course/Program Name": "Certificate in Health Professions Education",
+                    "Duration": "",
+                    "Fee Structure": "No fee information available"
+                }
+            ],
+            "MPhil Programs": [
+                {
+                    "Course/Program Name": "M.Phil in Education",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 67,320"
+                },
+                {
+                    "Course/Program Name": "M.Phil. Literature",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 84,000"
+                },
+                {
+                    "Course/Program Name": "M.Phil. TESOL",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 84,000"
+                },
+                {
+                    "Course/Program Name": "M.Phil in Linguistics and Literature",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 67,320"
+                },
+                {
+                    "Course/Program Name": "MPhil  Linguistics",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 67,320"
+                }
+            ],
+            "Masters Programs": [
+                {
+                    "Course/Program Name": "MS Operations & Supply Chain Management",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 98,760"
+                },
+                {
+                    "Course/Program Name": "MS Science in Finance",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 98,760"
+                },
+                {
+                    "Course/Program Name": "MS Computer Game Development",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 90,530"
+                },
+                {
+                    "Course/Program Name": "MS Digital Forensics",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 82,300"
+                },
+                {
+                    "Course/Program Name": "MS Cryptology",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 75,000"
+                },
+                {
+                    "Course/Program Name": "MS Statistics",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 106,990"
+                },
+                {
+                    "Course/Program Name": "MS Linguistics & Literature",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 67,320"
+                },
+                {
+                    "Course/Program Name": "MS Education",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 67,320"
+                },
+                {
+                    "Course/Program Name": "MS  Linguistics",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 67,320"
+                },
+                {
+                    "Course/Program Name": "MS in Applied Physics",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 98,760"
+                },
+                {
+                    "Course/Program Name": "Master of Science in Aerospace Engineering (Evening) Specialization in Solid Mechanics",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Total Fee 43,319"
+                },
+                {
+                    "Course/Program Name": "Master of Science in Avionics",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 56,100"
+                },
+                {
+                    "Course/Program Name": "MS Business Analytics",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 98,760"
+                },
+                {
+                    "Course/Program Name": "Master of Science in Mechanical",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 50,490"
+                },
+                {
+                    "Course/Program Name": "Master of Science in Computer Networks",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 82,300"
+                },
+                {
+                    "Course/Program Name": "Master of Science in Software Engineering",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 82,300"
+                },
+                {
+                    "Course/Program Name": "Master of Science in Clinical Psychology",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 92,400"
+                },
+                {
+                    "Course/Program Name": "MS Cyber Security",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 82,300"
+                },
+                {
+                    "Course/Program Name": "MS Bio-Medical",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 92,400"
+                },
+                {
+                    "Course/Program Name": "Master of Science in Computer Sciences (Evening)",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 82,300"
+                },
+                {
+                    "Course/Program Name": "Master of Science in Artificial Intelligence (Evening)",
+                    "Duration": "2",
+                    "Fee Structure": "77,000"
+                },
+                {
+                    "Course/Program Name": "Master of Science in Data Science (Evening)",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Total Fee 71,556"
+                },
+                {
+                    "Course/Program Name": "Masters of Science in Systems Security",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 82,300"
+                },
+                {
+                    "Course/Program Name": "Master of Science in Mathematics",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 106,990"
+                },
+                {
+                    "Course/Program Name": "Master of Science in Mechatronics",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 50,490"
+                },
+                {
+                    "Course/Program Name": "MS in Strategic Studies",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 67,320"
+                },
+                {
+                    "Course/Program Name": "Master of Science in Information Security",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 82,300"
+                },
+                {
+                    "Course/Program Name": "Master of Science in Aerospace",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 50,490"
+                },
+                {
+                    "Course/Program Name": "Master of Science in Project Management (Evening)",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 88,200"
+                },
+                {
+                    "Course/Program Name": "Master of Business Administration (Executive) 2 Years (Evening)",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Total Fee 109,253"
+                },
+                {
+                    "Course/Program Name": "MBA",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 104,701"
+                },
+                {
+                    "Course/Program Name": "Master of Science in Management Sciences (Evening)",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 98,760"
+                },
+                {
+                    "Course/Program Name": "Master of Science in Electrical",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 50,490"
+                },
+                {
+                    "Course/Program Name": "Master of Science in Mechanical Engineering (Evening) specialization in Design Engineering",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Total Fee 43,913"
+                },
+                {
+                    "Course/Program Name": "MS International Relations & Security Studies",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 78,000"
+                },
+                {
+                    "Course/Program Name": "MS Statistics and Data Analytical Science",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 117,000"
+                },
+                {
+                    "Course/Program Name": "MS Avionics Engineering",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 70,000"
+                },
+                {
+                    "Course/Program Name": "MS Business Analytics",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 108,000"
+                },
+                {
+                    "Course/Program Name": "MS Management Sciences",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 108,000"
+                },
+                {
+                    "Course/Program Name": "MS Finance",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 108,000"
+                },
+                {
+                    "Course/Program Name": "MS Cyber Psychology",
+                    "Duration": "2",
+                    "Fee Structure": "1st Semester Fee 90,000"
+                }
+            ]
+        },
+        "last_updated": "2025-10-14T08:49:51.723966"
+    },
+    "uni_of_education_fees": {
+        "fee_structure": [
+            {
+                "Course/Program Name": "BBA Bachelor of Business Administration",
+                "Duration": "4",
+                "Fee Structure": "Morning 1st Semester Fee 27,539\r\nEvening 1st Semester Fee 41,454"
+            },
+            {
+                "Course/Program Name": "BS Botany",
+                "Duration": "4",
+                "Fee Structure": "Morning 1st Semester Fee 25,350\r\nEvening 1st Semester Fee 37,059"
+            },
+            {
+                "Course/Program Name": "BS Economics",
+                "Duration": "4",
+                "Fee Structure": "Morning 1st Semester Fee 25,350\r\nEvening 1st Semester Fee 37,059"
+            },
+            {
+                "Course/Program Name": "BS English",
+                "Duration": "4",
+                "Fee Structure": "Morning 1st Semester Fee 25,350\r\nEvening 1st Semester Fee 37,059"
+            },
+            {
+                "Course/Program Name": "BS IT Information Technology",
+                "Duration": "4",
+                "Fee Structure": "Morning 1st Semester Fee 33,061\r\nEvening 1st Semester Fee 49,033"
+            },
+            {
+                "Course/Program Name": "BS Mathematics",
+                "Duration": "4",
+                "Fee Structure": "Morning 1st Semester Fee 25,350\r\nEvening 1st Semester Fee 37,059"
+            },
+            {
+                "Course/Program Name": "BS Physics",
+                "Duration": "4",
+                "Fee Structure": "Morning 1st Semester Fee 25,350\r\nEvening 1st Semester Fee 37,059"
+            },
+            {
+                "Course/Program Name": "BS Zoology",
+                "Duration": "4",
+                "Fee Structure": "Morning 1st Semester Fee 25,350\r\nEvening 1st Semester Fee 37,059"
+            },
+            {
+                "Course/Program Name": "BS Computer Science",
+                "Duration": "4",
+                "Fee Structure": "Morning 1st Semester Fee 33,061\r\nEvening 1st Semester Fee 49,033"
+            },
+            {
+                "Course/Program Name": "BS Chemistry",
+                "Duration": "4",
+                "Fee Structure": "Morning 1st Semester Fee 25,350\r\nEvening 1st Semester Fee 37,059"
+            },
+            {
+                "Course/Program Name": "BS Urdu",
+                "Duration": "4",
+                "Fee Structure": "Morning 1st Semester Fee 21,901\r\nEvening 1st Semester Fee 26,807"
+            },
+            {
+                "Course/Program Name": "BS History",
+                "Duration": "4",
+                "Fee Structure": "Morning 1st Semester Fee 21,901\r\nEvening 1st Semester Fee 26,807"
+            },
+            {
+                "Course/Program Name": "BS Physical Education and Sports Sciences",
+                "Duration": "4",
+                "Fee Structure": "Morning 1st Semester Fee 25,350\r\nEvening 1st Semester Fee 37,059"
+            },
+            {
+                "Course/Program Name": "BS Islamic Studies",
+                "Duration": "4",
+                "Fee Structure": "Morning 1st Semester Fee 25,350\r\nEvening 1st Semester Fee 37,059"
+            },
+            {
+                "Course/Program Name": "B.Ed (Hons) Educational Leadership and Management",
+                "Duration": "4",
+                "Fee Structure": "1st Semester Fee 20,218"
+            },
+            {
+                "Course/Program Name": "B.Ed. (Hons) Special Education",
+                "Duration": "4",
+                "Fee Structure": "1st Semester Fee 20,218"
+            },
+            {
+                "Course/Program Name": "B.Ed. Secondary",
+                "Duration": "1.5 year",
+                "Fee Structure": "1st Semester Fee 21,901"
+            },
+            {
+                "Course/Program Name": "BFA (Graphic Deign, Painting)",
+                "Duration": "4",
+                "Fee Structure": "Morning 1st Semester Fee 21,901\r\nEvening 1st Semester Fee 26,807"
+            },
+            {
+                "Course/Program Name": "BS Economics & Finace",
+                "Duration": "4",
+                "Fee Structure": "Morning 1st Semester Fee 25,350\r\nEvening 1st Semester Fee 37,059"
+            },
+            {
+                "Course/Program Name": "MS Information Technology",
+                "Duration": "2",
+                "Fee Structure": "Morning 1st Semester Fee 43,327\r\nEvening 1st Semester Fee 57,242"
+            },
+            {
+                "Course/Program Name": "MS Computer Science",
+                "Duration": "2",
+                "Fee Structure": "Morning 1st Semester Fee 43,327\r\nEvening 1st Semester Fee 57,242"
+            },
+            {
+                "Course/Program Name": "MS Management Sciences",
+                "Duration": "2",
+                "Fee Structure": "Morning 1st Semester Fee 43,327\r\nEvening 1st Semester Fee 57,242"
+            },
+            {
+                "Course/Program Name": "MS Mathematics",
+                "Duration": "2",
+                "Fee Structure": "Morning 1st Semester Fee 43,327\r\nEvening 1st Semester Fee 57,242"
+            },
+            {
+                "Course/Program Name": "MS Chemistry",
+                "Duration": "2",
+                "Fee Structure": "Morning 1st Semester Fee 43,327\r\nEvening 1st Semester Fee 57,242"
+            },
+            {
+                "Course/Program Name": "MS Zoology",
+                "Duration": "2",
+                "Fee Structure": "Morning 1st Semester Fee 43,327\r\nEvening 1st Semester Fee 57,242"
+            },
+            {
+                "Course/Program Name": "MS Botany",
+                "Duration": "2",
+                "Fee Structure": "Morning 1st Semester Fee 43,327\r\nEvening 1st Semester Fee 57,242"
+            },
+            {
+                "Course/Program Name": "MA Special Education",
+                "Duration": "2",
+                "Fee Structure": "Morning 1st Semester Fee 43,327\r\nEvening 1st Semester Fee 57,242"
+            },
+            {
+                "Course/Program Name": "MA Education",
+                "Duration": "2",
+                "Fee Structure": "Morning 1st Semester Fee 43,327\r\nEvening 1st Semester Fee 57,242"
+            },
+            {
+                "Course/Program Name": "MA Education Leadership and Management",
+                "Duration": "2",
+                "Fee Structure": "Morning 1st Semester Fee 43,327\r\nEvening 1st Semester Fee 57,242"
+            },
+            {
+                "Course/Program Name": "MA English",
+                "Duration": "2",
+                "Fee Structure": "Morning 1st Semester Fee 43,327\r\nEvening 1st Semester Fee 57,242"
+            },
+            {
+                "Course/Program Name": "MA History",
+                "Duration": "2",
+                "Fee Structure": "Morning 1st Semester Fee 43,327\r\nEvening 1st Semester Fee 57,242"
+            },
+            {
+                "Course/Program Name": "MA Urdu",
+                "Duration": "2",
+                "Fee Structure": "Morning 1st Semester Fee 43,327\r\nEvening 1st Semester Fee 57,242"
+            },
+            {
+                "Course/Program Name": "MBA Master of Business Administration",
+                "Duration": "2",
+                "Fee Structure": "Morning 1st Semester Fee 43,327\r\nEvening 1st Semester Fee 57,242"
+            },
+            {
+                "Course/Program Name": "MBA Executive",
+                "Duration": "2",
+                "Fee Structure": "Morning 1st Semester Fee 43,327\r\nEvening 1st Semester Fee 57,242"
+            },
+            {
+                "Course/Program Name": "MEd",
+                "Duration": "2",
+                "Fee Structure": "Morning 1st Semester Fee 43,327\r\nEvening 1st Semester Fee 57,242"
+            },
+            {
+                "Course/Program Name": "MEd Special Education",
+                "Duration": "2",
+                "Fee Structure": "Morning 1st Semester Fee 43,327\r\nEvening 1st Semester Fee 57,242"
+            },
+            {
+                "Course/Program Name": "MSc Chemistry",
+                "Duration": "2",
+                "Fee Structure": "Morning 1st Semester Fee 43,327\r\nEvening 1st Semester Fee 57,242"
+            },
+            {
+                "Course/Program Name": "MSc Economics",
+                "Duration": "2",
+                "Fee Structure": "Morning 1st Semester Fee 43,327\r\nEvening 1st Semester Fee 57,242"
+            },
+            {
+                "Course/Program Name": "MSc IT",
+                "Duration": "2",
+                "Fee Structure": "Morning 1st Semester Fee 43,327\r\nEvening 1st Semester Fee 57,242"
+            },
+            {
+                "Course/Program Name": "MSc Mathematics",
+                "Duration": "2",
+                "Fee Structure": "Morning 1st Semester Fee 43,327\r\nEvening 1st Semester Fee 57,242"
+            },
+            {
+                "Course/Program Name": "MSc Physics",
+                "Duration": "2",
+                "Fee Structure": "Morning 1st Semester Fee 43,327\r\nEvening 1st Semester Fee 57,242"
+            },
+            {
+                "Course/Program Name": "M.Phill English Linguistics",
+                "Duration": "2",
+                "Fee Structure": "Morning 1st Semester Fee 43,327\r\nEvening 1st Semester Fee 57,242"
+            },
+            {
+                "Course/Program Name": "MPhil Botany",
+                "Duration": "2",
+                "Fee Structure": "Morning 1st Semester Fee 43,327\r\nEvening 1st Semester Fee 57,242"
+            },
+            {
+                "Course/Program Name": "MPhil Chemistry",
+                "Duration": "2",
+                "Fee Structure": "Morning 1st Semester Fee 43,327\r\nEvening 1st Semester Fee 57,242"
+            },
+            {
+                "Course/Program Name": "MPhil Education",
+                "Duration": "2",
+                "Fee Structure": "Morning 1st Semester Fee 43,327\r\nEvening 1st Semester Fee 57,242"
+            },
+            {
+                "Course/Program Name": "MPhil Mathematics",
+                "Duration": "2",
+                "Fee Structure": "Morning 1st Semester Fee 43,327\r\nEvening 1st Semester Fee 57,242"
+            },
+            {
+                "Course/Program Name": "MPhil Physics",
+                "Duration": "2",
+                "Fee Structure": "Morning 1st Semester Fee 43,327\r\nEvening 1st Semester Fee 57,242"
+            },
+            {
+                "Course/Program Name": "MPhil Urdu",
+                "Duration": "2",
+                "Fee Structure": "Morning 1st Semester Fee 43,327\r\nEvening 1st Semester Fee 57,242"
+            },
+            {
+                "Course/Program Name": "MPhil Zoology",
+                "Duration": "2",
+                "Fee Structure": "Morning 1st Semester Fee 43,327\r\nEvening 1st Semester Fee 57,242"
+            },
+            {
+                "Course/Program Name": "MPhil Educational Leadership and Policy Studies",
+                "Duration": "2",
+                "Fee Structure": "Morning 1st Semester Fee 43,327\r\nEvening 1st Semester Fee 57,242"
+            },
+            {
+                "Course/Program Name": "MPhil English (Linguistics)",
+                "Duration": "2",
+                "Fee Structure": "Morning 1st Semester Fee 43,327\r\nEvening 1st Semester Fee 57,242"
+            },
+            {
+                "Course/Program Name": "MPhil Economics",
+                "Duration": "2",
+                "Fee Structure": "Morning 1st Semester Fee 43,327\r\nEvening 1st Semester Fee 57,242"
+            },
+            {
+                "Course/Program Name": "MPhil History, Arts & Cultural Heritage",
+                "Duration": "2",
+                "Fee Structure": "Morning 1st Semester Fee 43,327\r\nEvening 1st Semester Fee 57,242"
+            },
+            {
+                "Course/Program Name": "MPhil Special Education",
+                "Duration": "2",
+                "Fee Structure": "Morning 1st Semester Fee 43,327\r\nEvening 1st Semester Fee 57,242"
+            },
+            {
+                "Course/Program Name": "MPhil Islamic Studies",
+                "Duration": "2",
+                "Fee Structure": "Morning 1st Semester Fee 43,327\r\nEvening 1st Semester Fee 57,242"
+            },
+            {
+                "Course/Program Name": "PhD Zoology",
+                "Duration": "3",
+                "Fee Structure": "Morning 1st Semester Fee 54,638\r\nEvening 1st Semester Fee 75,131"
+            },
+            {
+                "Course/Program Name": "PhD Chemistry",
+                "Duration": "3",
+                "Fee Structure": "Morning 1st Semester Fee 54,638\r\nEvening 1st Semester Fee 75,131"
+            },
+            {
+                "Course/Program Name": "PhD Botany",
+                "Duration": "3",
+                "Fee Structure": "Morning 1st Semester Fee 54,638\r\nEvening 1st Semester Fee 75,131"
+            },
+            {
+                "Course/Program Name": "PhD Physics",
+                "Duration": "3",
+                "Fee Structure": "Morning 1st Semester Fee 54,638\r\nEvening 1st Semester Fee 75,131"
+            },
+            {
+                "Course/Program Name": "PhD Management Sciences",
+                "Duration": "3",
+                "Fee Structure": "Morning 1st Semester Fee 54,638\r\nEvening 1st Semester Fee 75,131"
+            },
+            {
+                "Course/Program Name": "PhD Economics",
+                "Duration": "3",
+                "Fee Structure": "Morning 1st Semester Fee 54,638\r\nEvening 1st Semester Fee 75,131"
+            },
+            {
+                "Course/Program Name": "PhD English (Linguistics)",
+                "Duration": "3",
+                "Fee Structure": "Morning 1st Semester Fee 54,638\r\nEvening 1st Semester Fee 75,131"
+            },
+            {
+                "Course/Program Name": "PhD Mathematics",
+                "Duration": "3",
+                "Fee Structure": "Morning 1st Semester Fee 54,638\r\nEvening 1st Semester Fee 75,131"
+            },
+            {
+                "Course/Program Name": "PhD in History, Arts & Cultural Heritage",
+                "Duration": "3",
+                "Fee Structure": "Morning 1st Semester Fee 54,638\r\nEvening 1st Semester Fee 75,131"
+            },
+            {
+                "Course/Program Name": "PhD Special Education",
+                "Duration": "3",
+                "Fee Structure": "Morning 1st Semester Fee 54,638\r\nEvening 1st Semester Fee 75,131"
+            },
+            {
+                "Course/Program Name": "PhD Educational Leadership and Policy Studies",
+                "Duration": "3",
+                "Fee Structure": "Morning 1st Semester Fee 54,638\r\nEvening 1st Semester Fee 75,131"
+            },
+            {
+                "Course/Program Name": "PhD Islamic Studies",
+                "Duration": "3",
+                "Fee Structure": "Morning 1st Semester Fee 54,638\r\nEvening 1st Semester Fee 75,131"
+            },
+            {
+                "Course/Program Name": "PhD Education",
+                "Duration": "3",
+                "Fee Structure": "Morning 1st Semester Fee 54,638\r\nEvening 1st Semester Fee 75,131"
+            },
+            {
+                "Course/Program Name": "PhD Urdu",
+                "Duration": "3",
+                "Fee Structure": "Morning 1st Semester Fee 54,638\r\nEvening 1st Semester Fee 75,131"
+            }
+        ],
+        "last_updated": "2025-10-14T08:50:49.770210"
+    },
+    "fast_fees": {
+        "fee_structure": {
+            "tuition_fees": [
+                {
+                    "Program": "BBA / BS",
+                    "Fee": "Rs. 11,000"
+                },
+                {
+                    "Program": "MBA / MS",
+                    "Fee": "Rs. 11,000"
+                },
+                {
+                    "Program": "PhD",
+                    "Fee": "Rs. 11,000"
+                }
+            ],
+            "student_activities_fund": "Rs 2,500 per semester",
+            "miscellaneous_fees": {
+                "Campus Transfer Fee": "Rs. 5,000",
+                "Temporary Campus Transfer Fee": "Rs. 2,000",
+                "Degree Correction Fee": "Rs. 2,000",
+                "Semester Freeze Fee (within two weeks of start of classes)": "Rs. 2,000",
+                "Retake Sessional Exam Fee (Per Course)": "Rs. 2,000",
+                "Retake Final Exam Fee (Per Course/Lab)": "Rs. 2,000",
+                "Paper Rechecking Fee (Per Course/Lab)": "Rs. 500",
+                "Issuance of Certificate/Letter Fee": "Rs. 300"
+            },
+            "late_payment_fine": "Late payment fine is levied on the entire outstanding fee (current as well as arrears). It is charged at the rate of Re 1.00 per day for every thousand rupees. Registration is suspended TWO months after the due date for payment of fee.",
+            "refund_policy": {
+                "refund_timeline": [
+                    {
+                        "Timeline": "Upto 10th day of commencement of classes",
+                        "Percentage of Fee": "100% Fee Refund"
+                    },
+                    {
+                        "Timeline": "Upto 15th day of commencement of classes",
+                        "Percentage of Fee": "80% Fee Refund"
+                    },
+                    {
+                        "Timeline": "Upto 20th day of commencement of classes",
+                        "Percentage of Fee": "60% Fee Refund"
+                    },
+                    {
+                        "Timeline": "Upto 30th day of commencement of classes",
+                        "Percentage of Fee": "50% Fee Refund"
+                    },
+                    {
+                        "Timeline": "31st day onwards of commencement of classes",
+                        "Percentage of Fee": "No Refund"
+                    }
+                ]
+            },
+            "payment_methods": [
+                "Fee can be paid using any one of the following methods:Print the challan form and then visit any nearest Faysal bank branch for cash deposit.Via bank account using Kuickpay payment gateway.Step 1:Sign in to your Internet Banking, Mobile Banking or visit an ATM machineStep 2:Select Bill Payment / Payments and then select \u2018kuickpay\u2019 from given categoriesStep 3:Enter the voucher or invoice number & continue. Make sure to enter Institution ID as prefix (mentioned on challan)Step 4:Confirm your voucher details and proceed to payment. Payment alerts will be received accordingly.*Customers of following Banks can avail Kuickpay serviceAllied Bank, Askari Bank, Bank Al Habib, Bank Alfalah, Bank Islami, Bank of Punjab, Dubai Islamic Bank, Faysal Bank, First Women Bank, Habib Metro Bank, Habib Bank Limited, JS Bank, MCB Bank, MCB Islamic Bank, Meezan Bank, National Bank, NRSP Bank, SAMBA Bank, Soneri bank, Summit Bank, UBL and Keenu App.** Easy paisa and JazzCash can also be used for payment via kuickpay. (Transaction Limit apply)For further clarification, please visit:https://app.kuickpay.com/PaymentsBillPayment"
+            ]
+        },
+        "last_updated": "2025-10-14T08:52:09.345656"
+    },
+    "nust_scholarships": {
+        "scholarships": [
+            "A variety of scholarships are available from NUST to help worthy students achieve their academic objectives. Among the scholarships that NUST provides are:"
+        ],
+        "last_updated": "2025-10-14T08:53:03.997422"
     }
 }

@@ -1,40 +1,62 @@
-Program,Institute,Merit No. (Highest),Highest (%),Merit No. (Closing),Closing (%)
-Bachelors in Civil Engineering,MCE,2996,67.39213,12418,52.88969
-Bachelors in Environmental Engineering,SCEE,1526,72.082,10356,55.31671
-Bachelors in Civil Engineering,SCEE,329,79.53619,8606,61.29541
-Bachelors in Geoinformatics Engineering,SCEE,117,73.68142,8896,57.22815
-Bachelors in Mechanical Engineering,SMME,7,88.28863,3824,65.39706
-Bachelors in Aerospace Engineering,SMME,3,90.08008,3353,66.55001
-Bachelors in Electrical Engineering,MCS,2401,69.0701,9619,56.24318
-Bachelors in Software Engineering,MCS,84,77.12303,2350,69.21632
-Bachelors in Information Security,MCS,1097,73.03182,4157,64.73717
-Bachelors in Electrical Engineering,CEME,1471,72.81364,8611,57.33969
-Bachelors in Mechanical Engineering,CEME,1682,71.47623,9051,57.01032
-Bachelors in Computer Engineering,CEME,596,77.06294,3838,65.375
-Bachelors in Mechatronics Engineering,CEME,95,82.97046,7736,58.83008
-Bachelors in Electrical Engineering,PNEC,278,80.1125,7933,58.55294
-Bachelors in Mechanical Engineering,PNEC,153,81.84722,7676,58.09062
-Bachelors in Naval Architecture,PNEC,5609,62.05556,12394,52.92867
-Bachelors in Avionics Engineering,CAE,55,84.20682,4511,64.00227
-Bachelors in Aerospace Engineering,CAE,48,84.39318,2277,69.43056
-Bachelors in Electrical Engineering,SEECS,31,85.36818,3340,66.5636
-Bachelors in Software Engineering,SEECS,9,87.79091,545,77.47727
-Bachelors in Chemical Engineering,SCME,242,80.51389,7843,58.66661
-Bachelors in Material Engineering,SCME,2824,67.79773,10669,54.97222
-Bachelors in Civil Engineering,NBC,12452,62.81138,18178,44.98409
-Bachelors in Civil Engineering (Balochistan Domicile),NBC,12252,53.11328,20609,36.26136
-BS Computer Science,SEECS,2,90.65482,565,77.31941
-BS Computer Science,NBC,795,75.68465,4176,64.70363
-BS Bioinformatics,SINES,727,75.29726,3553,65.81676
-BS Data Science,SEECS,15,86.80682,695,75.51819
-BS Computer Science (Balochistan Domicile),NBC,3197,66.90329,19288,42.72045
-Bachelors in Artificial Intelligence,MCS,220,85.91234,3120,68.27459
-Bachelors in Data Science,SEECS,102,88.13256,615,76.43982
-Bachelors in Electrical Engineering,SMME,910,77.50348,8722,58.12734
-Bachelors in Robotics Engineering,SMME,301,83.00012,4987,60.78901
-BS Artificial Intelligence,SEECS,5,91.20345,452,78.39456
-BS Cyber Security,MCS,1234,72.8945,4288,63.58129
-BS Computer Science,SINES,650,76.00121,3902,66.23411
-Bachelors in Bioengineering,SCME,842,74.12987,7302,59.88243
-Bachelors in Telecommunications Engineering,PNEC,129,80.23456,7420,57.20347
-BS Software Engineering (Balochistan Domicile),NBC,2901,59.23445,16987,41.55678
+Program,Institute,Merit No,Merit No. (Closing),Closing (%)
+Bachelors in Civil Engineering,MCE,2996,12418,52.88969
+Bachelors in Environmental Engineering,SCEE,1526,10356,55.31671
+Bachelors in Civil Engineering,SCEE,329,8606,61.29541
+Bachelors in Geoinformatics Engineering,SCEE,117,8896,57.22815
+Bachelors in Mechanical Engineering,SMME,7,3824,65.39706
+Bachelors in Aerospace Engineering,SMME,3,3353,66.55001
+Bachelors in Electrical Engineering,MCS,2401,9619,56.24318
+Bachelors in Software Engineering,MCS,84,2350,69.21632
+Bachelors in Information Security,MCS,1097,4157,64.73717
+Bachelors in Electrical Engineering,CEME,1471,8611,57.33969
+Bachelors in Mechanical Engineering,CEME,1682,9051,57.01032
+Bachelors in Computer Engineering,CEME,596,3838,65.375
+Bachelors in Mechatronics Engineering,CEME,95,7736,58.83008
+Bachelors in Electrical Engineering,PNEC,278,7933,58.55294
+Bachelors in Mechanical Engineering,PNEC,153,7676,58.09062
+Bachelors in Naval Architecture,PNEC,5609,12394,52.92867
+Bachelors in Avionics Engineering,CAE,55,4511,64.00227
+Bachelors in Aerospace Engineering,CAE,48,2277,69.43056
+Bachelors in Electrical Engineering,SEECS,31,3340,66.5636
+Bachelors in Software Engineering,SEECS,9,545,77.47727
+Bachelors in Chemical Engineering,SCME,242,7843,58.66661
+Bachelors in Material Engineering,SCME,2824,10669,54.97222
+Bachelors in Civil Engineering,NBC,12452,18178,44.98409
+Bachelors in Civil Engineering (Balochistan Domicile),NBC,12252,20609,36.26136
+BS Computer Science,SEECS,2,565,77.31941
+BS Computer Science,NBC,795,4176,64.70363
+BS Bioinformatics,SINES,727,3553,65.81676
+BS Data Science,SEECS,15,695,75.51819
+BS Computer Science (Balochistan Domicile),NBC,3197,19288,42.72045
+Bachelors in Artificial Intelligence,MCS,220,3120,68.27459
+Bachelors in Data Science,SEECS,102,615,76.43982
+Bachelors in Electrical Engineering,SMME,910,8722,58.12734
+Bachelors in Robotics Engineering,SMME,301,4987,60.78901
+BS Artificial Intelligence,SEECS,5,452,78.39456
+BS Cyber Security,MCS,1234,4288,63.58129
+BS Computer Science,SINES,650,3902,66.23411
+Bachelors in Bioengineering,SCME,842,7302,59.88243
+Bachelors in Telecommunications Engineering,PNEC,129,7420,57.20347
+BS Software Engineering (Balochistan Domicile),NBC,2901,16987,41.55678
+Software Engineering,SEECS,378,378,78.42
+Software Engineering,MCS,1262,1262,72.09
+Electrical Engineering,SEECS,2449,2449,67.45
+Electrical Engineering,MCS,7703,7703,56.89
+Electrical Engineering,CEME,6139,6139,59.26
+Electrical Engineering,PNEC,7788,7788,56.48
+Civil Engineering,NICE - SCEE,5637,5637,60.03
+Civil Engineering,MCE,9204,9204,53.41
+Civil Engineering,NBC,14714,14714,49.92
+Mechanical Engineering,SMME,3083,3083,65.27
+Mechanical Engineering,CEME,6204,6204,57.59
+Mechanical Engineering,PNEC,7416,7416,54.77
+Aerospace Engineering,SMME,3292,3292,64.98
+Aerospace Engineering,CAE,1567,1567,69.93
+Information Security Engineering,MCS,2988,2988,65.94
+Mechatronics Engineering,CEME,4830,4830,62.12
+Environmental Engineering,IESE - SCEE,8199,8199,53.99
+Naval Architecture Engineering,PNEC,13757,13757,50.07
+Avionics Engineering,CAE,4954,4954,61.91
+Chemical Engineering,SCME,6155,6155,58.37
+Computer Engineering,CEME,2746,2746,66.81
+Material Engineering,SCME,8419,8419,53.49
